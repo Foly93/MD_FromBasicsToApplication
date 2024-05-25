@@ -1,0 +1,32 @@
+# This file was created Thu Aug 18 20:02:06 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/01_INTRO/teacher
+# Command line:
+#   gmx energy -f intro_0.011_12.edr -s intro_0.011_12.tpr -o intro_0.011_12.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Coulomb (SR)"
+@ s1 legend "Potential"
+@ s2 legend "Kinetic En."
+    0.000000    0.000000  -17464.080078  8774.638672
+    0.011000    0.000000  -9271.998047  21674.164062
+    0.022000    0.000000  66864.875000  144800.156250
+    0.033000    0.000000  671688.500000  1277943.500000
+    0.044000    0.000000  597321318400.000000  162228539676350440538112.000000
+    0.055000    0.000000  848869946935385660588032.000000         inf

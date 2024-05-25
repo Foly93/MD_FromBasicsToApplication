@@ -1,0 +1,36 @@
+# This file was created Thu Aug 18 20:05:28 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/01_INTRO/teacher
+# Command line:
+#   gmx energy -f intro_0.006_4.edr -s intro_0.006_4.tpr -o intro_0.006_4.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Coulomb (SR)"
+@ s1 legend "Potential"
+@ s2 legend "Kinetic En."
+    0.000000    0.000000  -17464.078125  8768.115234
+    0.006000    0.000000  -10332.436523  18042.371094
+    0.012000    0.000000  32994.328125  75532.765625
+    0.018000    0.000000  249482.765625  374620.906250
+    0.024000    0.000000  1206281856.000000  211381041720459264.000000
+    0.030000    0.000000  987004306622251008.000000  1039380832188744335360.000000
+    0.036000    0.000000  4852019486642107580416.000000  3712081078064625180629557837824.000000
+    0.042000    0.000000  17332983610131302709383196049408.000000  30558276652524379179691397873664.000000
+    0.048000    0.000000  123505650942043546139161505300480.000000  172264211512652237602978755772416.000000
+    0.054000    0.000000  650350948554797518719315917930496.000000  875429879533809780841985892941824.000000

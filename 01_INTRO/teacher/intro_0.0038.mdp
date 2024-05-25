@@ -1,0 +1,30 @@
+integrator          =  md                    ; type of the integrator
+dt                  =  0.0038                 ; time step in ps
+nsteps              =  100000 ;100000               ; number of steps
+
+;++++++++++++++++++++ Writing output
+nstxout             =  1000                  ; write coordinates to the file (*.trr) every ???? steps
+nstxout-compressed  =  10                  ; write coordinates in condensed format to the file (*.xtc) every ???? steps 
+nstvout             =  1000                ; write velocities to the file (*.trr) every ???? steps
+nstlog              =  10                  ; write to logfile (*.log) every ???? steps
+nstenergy           =  1                  ; write energies to the file (*.edr) every ???? steps
+nstlist             =  10                    ; update pairlist
+ns_type             =  grid                  ; pairlist method
+;++++++++++++++++++++
+cutoff-scheme       =  verlet
+verlet-buffer-tolerance = 0.0000001
+;coulombtype         =  cut-off
+rlist               =  1.2                    ; cut-off for neigbohr list search
+rvdw                =  1.2                    ; cut-off for vdw
+rcoulomb            =  1.2                    ; cut-off for coulomb
+;++++++++++++++++++++ Temperature coupling
+;Tcoupl              =  Berendsen
+;ref-t		    =  200
+;tau-t		    =  2
+;tc-grps		    = system
+;++++++++++++++++++++ Pressure coupling
+;Pcoupl              =  no
+;++++++++++++++++++++
+gen_vel             =  yes                    ; generate initial velocities
+gen_temp            =  350                    ; initial temperature
+pbc = xyz

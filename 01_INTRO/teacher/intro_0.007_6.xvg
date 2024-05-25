@@ -1,0 +1,36 @@
+# This file was created Thu Aug 18 20:03:45 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/01_INTRO/teacher
+# Command line:
+#   gmx energy -f intro_0.007_6.edr -s intro_0.007_6.tpr -o intro_0.007_6.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Coulomb (SR)"
+@ s1 legend "Potential"
+@ s2 legend "Kinetic En."
+    0.000000    0.000000  -17464.078125  8777.447266
+    0.007000    0.000000  -11159.188477  15622.974609
+    0.014000    0.000000  13968.738281  43263.250000
+    0.021000    0.000000  84509.421875  121696.507812
+    0.028000    0.000000  274944.500000  346106.718750
+    0.035000    0.000000  68247059693568.000000  3812646556982679786848518144.000000
+    0.042000    0.000000  16154113065323306213896617984.000000  25696381788399786293532295168.000000
+    0.049000    0.000000  80849313148901623838244077568.000000  98060620037561716091308212224.000000
+    0.056000    0.000000  259061375016526487598116372480.000000  1380555507068043560352743424000.000000
+    0.063000    0.000000  5319111610244540008397763772416.000000  8222733217848438845475964059648.000000

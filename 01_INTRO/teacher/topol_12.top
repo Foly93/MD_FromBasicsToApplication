@@ -1,0 +1,29 @@
+[ defaults ]
+; nbfunc	comb-rule	gen-pairs	fudgeLJ	fudgeQQ
+  1		2		no		1.0	1.0
+
+[ atomtypes ]
+;name  at.num    mass      charge ptype       sigma      epsilon
+   C    6 	12.00      0.000    A        0.340100     0.978600
+
+
+[ moleculetype ]
+; molname	nrexcl
+C_dimer		3
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name  cg nr	charge   mass
+1	C	1	C		C	 1	0	 12.00
+2	C	1	C		C	 1	0	 12.00
+
+[ bonds ]
+; ai aj  funct b0      kb
+  1  2   1     0.1525  259408
+
+[ system ]
+C_dimer
+
+[ molecules ]
+; name    nmbr
+C_dimer   1000
+
