@@ -1,0 +1,159 @@
+GROMACS version:    2018.1
+Precision:          single
+Memory model:       64 bit
+MPI library:        thread_mpi
+OpenMP support:     enabled (GMX_OPENMP_MAX_THREADS = 64)
+GPU support:        disabled
+SIMD instructions:  SSE2
+FFT library:        fftw-3.3.7-sse2-avx
+RDTSCP usage:       disabled
+TNG support:        enabled
+Hwloc support:      hwloc-1.11.6
+Tracing support:    disabled
+Built on:           2018-03-31 17:12:46
+Built by:           buildd@debian [CMAKE]
+Build OS/arch:      Linux x86_64
+Build CPU vendor:   Intel
+
+
+Berendsen
+
+tauP:    0.05
+RMSD(Vol):   0.191382
+Kappa         = 5.60679e-10 (m^3/J)
+
+tauP:    0.1
+RMSD(Vol):   0.169014
+Kappa         = 4.37265e-10 (m^3/J)
+
+tauP:    0.5
+RMSD(Vol):   0.115398
+Kappa         = 2.04015e-10 (m^3/J)
+
+tauP:    1
+RMSD(Vol):   0.0931416
+Kappa         = 1.32949e-10 (m^3/J)
+
+tauP:    5
+RMSD(Vol):   0.0458742
+Kappa         = 3.22315e-11 (m^3/J)
+
+tauP:    10
+RMSD(Vol):   0.0318477
+Kappa         = 1.55412e-11 (m^3/J)
+
+
+Parrinello-Rahman
+
+tauP:    0.05
+RMSD(Vol):   0.188089
+Kappa         = 5.41792e-10 (m^3/J)
+
+tauP:    0.1
+RMSD(Vol):   1.98531
+Kappa         = 5.14946e-08 (m^3/J)
+
+tauP:    0.5
+RMSD(Vol):   0.212412
+Kappa         = 6.90623e-10 (m^3/J)
+
+tauP:    1
+RMSD(Vol):   0.21154
+Kappa         = 6.85133e-10 (m^3/J)
+
+tauP:    5
+RMSD(Vol):   0.206438
+Kappa         = 6.52112e-10 (m^3/J)
+
+tauP:    10
+RMSD(Vol):   0.208869
+Kappa         = 6.67617e-10 (m^3/J)
+
+
+Exec 02 - Watermodel Comparison
+TIP4P Kappa         = 6.57544e-10 (m^3/J)
+SPC/E Kappa         = 4.57782e-10 (m^3/J)
+
+Exec03 - Breaking the System taut:50 taup:2
+Total Energy               -20584.7         12    27.2369   -85.7313  (kJ/mol)
+Kinetic En.                 3894.44         10    81.1285   -8.52265  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+
+
+Exec 03 - Breaking the System taut:2 taup:2
+Total Energy               -20592.3        8.2    21.1087   -61.2885  (kJ/mol)
+Kinetic En.                 3884.35        3.3    81.6775   -7.61511  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+
+
+Exec 03 - Breaking the System taut:0.2 taup 0.2
+Total Energy               -20575.8         15    59.3756   -55.4236  (kJ/mol)
+Kinetic En.                 3882.44        1.7    73.4383    4.24311  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+
+
+Exec 03 - Breaking the System taut:0.1 taup:0.1
+Total Energy               -20630.3         23    83.9949    21.7385  (kJ/mol)
+Kinetic En.                 3883.93       0.68    73.2234   -2.92826  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+
+
+Exec 03 - Breaking the System taut: 0.05 taup:0.05
+Total Energy               -19713.5         40    249.639     173.36  (kJ/mol)
+Kinetic En.                 4104.84         13     214.01    59.5155  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+
+Exec 03 - Breaking the System taut:50 taup:0.05
+Total Energy               -18226.1        140    424.589    932.945  (kJ/mol)
+Kinetic En.                 4585.14         39    154.835    256.069  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+
+Exec 03 - Breaking the System taut:50 taup:0.1 long
+Total Energy                 -21910        300    617.675   -2094.79  (kJ/mol)
+Kinetic En.                 3518.45         83    184.231   -574.512  (kJ/mol)
+Potential                  -25428.5        220    453.446   -1520.28  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+Potential                    -24480         --    87.2261    118.679  (kJ/mol)
+=> thats the oneee ! :) 200ps is good
+
+Exec 03 - Breaking the System taut:2.0 taup:2.0 long
+Total Energy               -20630.2        8.8    30.6914   -15.7297  (kJ/mol)
+Kinetic En.                 3876.29        1.7    80.4326   -4.46671  (kJ/mol)
+Potential                  -24506.5        7.7    85.7506    -11.263  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+Potential                    -24480         --    87.2261    118.679  (kJ/mol)
+
+
+Exec 03 - Breaking the System
+Total Energy               -20612.6         23     46.959   -155.825  (kJ/mol)
+Kinetic En.                 3883.75         10    81.5134   -26.0035  (kJ/mol)
+Potential                  -24496.3         24    92.4514   -129.822  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+Potential                    -24480         --    87.2261    118.679  (kJ/mol)
+
+
+Exec 03 - Breaking the System
+Total Energy               -21948.4         11    90.3523   -58.5031  (kJ/mol)
+Kinetic En.                 3506.89          3    77.9753   -16.3557  (kJ/mol)
+Potential                  -25455.3        8.5    97.6732   -42.1474  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+Potential                    -24480         --    87.2261    118.679  (kJ/mol)
+
+
+Exec 03 - Breaking the System
+Total Energy                 -21910        300    617.675   -2094.79  (kJ/mol)
+Kinetic En.                 3518.45         83    184.231   -574.512  (kJ/mol)
+Potential                  -25428.5        220    453.446   -1520.28  (kJ/mol)
+Total Energy               -20593.7         --    43.4334    99.8005  (kJ/mol)
+Kinetic En.                 3886.34         --    77.4167   -18.8801  (kJ/mol)
+Potential                    -24480         --    87.2261    118.679  (kJ/mol)

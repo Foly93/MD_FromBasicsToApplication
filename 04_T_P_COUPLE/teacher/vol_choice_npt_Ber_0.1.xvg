@@ -1,0 +1,26 @@
+# This file was created Mon Oct 31 10:52:57 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/04_T_P_COUPLE/teacher
+# Command line:
+#   gmx energy -f choice_npt_Ber_0.1.edr -o vol_choice_npt_Ber_0.1.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(nm^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Volume"
+    0.000000   15.700119
+    3.500000   15.904314

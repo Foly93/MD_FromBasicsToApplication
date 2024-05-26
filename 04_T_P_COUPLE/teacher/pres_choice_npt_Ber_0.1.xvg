@@ -1,0 +1,26 @@
+# This file was created Mon Oct 31 10:52:57 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/04_T_P_COUPLE/teacher
+# Command line:
+#   gmx energy -f choice_npt_Ber_0.1.edr -o pres_choice_npt_Ber_0.1.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(bar)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Pressure"
+    0.000000   -9.914154
+    3.500000  -256.266846

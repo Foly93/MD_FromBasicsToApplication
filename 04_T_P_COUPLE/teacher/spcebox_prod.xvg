@@ -1,0 +1,46 @@
+# This file was created Fri Oct 28 22:59:35 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/04_T_P_COUPLE/teacher
+# Command line:
+#   gmx energy -f spcebox_prod.edr -o spcebox_prod.xvg -fluct_props -nmol 523
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K), (nm^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+@ s1 legend "Volume"
+    0.000000  295.838837   15.940792
+   10.000000  295.447235   15.641676
+   20.000000  294.463196   15.771937
+   30.000000  289.438812   15.521588
+   40.000000  300.897949   15.551707
+   50.000000  288.990417   15.727397
+   60.000000  315.401733   15.699142
+   70.000000  305.184509   15.585217
+   80.000000  299.441772   15.796981
+   90.000000  299.593994   15.773216
+  100.000000  313.710754   15.723311
+  110.000000  302.596008   15.474665
+  120.000000  318.671448   15.738090
+  130.000000  304.263062   15.485065
+  140.000000  307.717255   15.716880
+  150.000000  291.045532   15.577653
+  160.000000  296.694733   15.492225
+  170.000000  297.235199   15.593296
+  180.000000  297.450378   15.748316
+  190.000000  308.408142   15.598970
+  200.000000  307.749573   15.544725

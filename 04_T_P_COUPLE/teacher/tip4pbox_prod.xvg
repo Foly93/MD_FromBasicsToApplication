@@ -1,0 +1,46 @@
+# This file was created Fri Oct 28 22:59:35 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/luisvollmers/MD2022/04_T_P_COUPLE/teacher
+# Command line:
+#   gmx energy -f tip4pbox_prod.edr -o tip4pbox_prod.xvg -fluct_props -nmol 523
+# gmx energy is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K), (nm^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+@ s1 legend "Volume"
+    0.000000  301.380798   15.806826
+   10.000000  296.952820   15.511074
+   20.000000  292.486725   15.504313
+   30.000000  302.465668   15.725583
+   40.000000  310.135712   15.543242
+   50.000000  297.865021   15.668322
+   60.000000  304.633331   16.054903
+   70.000000  309.368561   15.737844
+   80.000000  279.485016   15.525149
+   90.000000  285.203308   15.826967
+  100.000000  290.425873   15.398234
+  110.000000  313.837128   15.274255
+  120.000000  298.008209   15.358395
+  130.000000  300.150635   15.877253
+  140.000000  292.136353   15.797935
+  150.000000  309.546387   16.157436
+  160.000000  303.132629   15.629118
+  170.000000  298.244629   16.098364
+  180.000000  297.696320   15.786391
+  190.000000  305.488312   15.685142
+  200.000000  288.441406   16.156370

@@ -1,0 +1,52 @@
+title                   = Exercise 4 Task 1
+
+; Run parameters
+integrator              = md
+nsteps                  = 1000000     
+dt                      = 0.002
+
+; Output control
+nstxout                 = 0
+nstxout-compressed      = 5000 
+nstvout                 = 5000
+nstenergy               = 5000
+nstlog                  = 5000
+
+; Bond parameters
+continuation            = no
+constraint_algorithm    = lincs
+constraints             = h-bonds
+lincs_iter              = 1
+lincs_order             = 4
+
+; Nonbonded settings
+cutoff-scheme           = Verlet
+ns_type                 = grid
+nstlist                 = 10
+rcoulomb                = 1.0
+rvdw                    = 1.0
+DispCorr                = EnerPres
+
+; Electrostatics
+coulombtype             = PME
+pme_order               = 4
+fourierspacing          = 0.16
+
+; Temperature coupling
+tcoupl                  = Nose-Hoover
+tc-grps                 = system
+tau_t                   = 0.5
+ref_t                   = 298.15
+
+; Pressure coupling 
+pcoupl			= Parrinello-Rahman
+pcoupltype		= isotropic
+tau-p			= 0.5
+ref-p			= 1.0
+compressibility         = 4.5e-5
+
+; Periodic boundary conditions
+pbc                     = xyz
+
+; Velocity generation
+gen_vel                 = no 
