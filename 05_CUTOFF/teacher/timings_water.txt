@@ -1,0 +1,7 @@
+filename	Core time (s)
+_output/spce_sh8_prod.log:	2247.418
+_output/spce_tr12_prod.log:	2482.413
+_output/spce_tr8_prod.log:	2989.647
+_output/spce_tr18_prod.log:	3449.464
+_output/spce_pme_prod.log:	5691.774
+_output/spce_sh12_prod.log:	12171.357

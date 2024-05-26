@@ -1,0 +1,59 @@
+; RUN CONTROL
+integrator              = md
+dt                      = 0.002
+nsteps                  = 25000
+
+; OUTPUT CONTROL
+nstxout                 = 0
+nstxout-compressed      = 50 
+nstvout                 = 0
+nstenergy               = 5000
+nstlog                  = 5000
+
+; NEIGHBOR SEARCHING
+cutoff-scheme           = Verlet
+nstlist                 = 10
+ns_type                 = grid
+pbc                     = xyz
+verlet-buffer-tolerance = 0.005
+rlist			= 0.8
+
+; ELECTROSTATICS
+coulombtype             = PME
+coulomb-modifier	= None
+rcoulomb-switch		= 0
+rcoulomb                = 0.8
+epsilon-r		= 1
+
+; VAN DER WAALS
+rvdw                    = 0.8
+DispCorr                = EnerPres
+
+; EWALD
+fourierspacing          = 0.16
+pme_order               = 4
+
+
+; TEMPERATURE COUPLING
+tcoupl                  = Nose-Hoover
+tc-grps                 = system
+tau_t                   = 0.5
+ref_t                   = 300.00
+
+; PRESSURE COUPLING 
+pcoupl			= Parrinello-Rahman
+pcoupltype		= isotropic
+nstpcouple              = 1
+tau-p			= 2
+ref-p			= 1.0
+compressibility         = 4.5e-5
+
+; VELOCITY GENERATION
+gen_vel                 = no
+
+; BONDS
+constraints             = h-bonds
+constraint_algorithm    = lincs
+continuation            = no
+lincs_order             = 4
+lincs_iter              = 1

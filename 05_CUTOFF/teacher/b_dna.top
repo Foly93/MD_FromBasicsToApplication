@@ -1,0 +1,49 @@
+;
+;	File '_output/b_dna.top' was generated
+;	By user: lvollmers (870)
+;	On host: hen
+;	At date: Sun Feb 19 14:07:38 2023
+
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                 :-) GROMACS - gmx pdb2gmx, VERSION 5.1.4 (-:
+;	
+;	Executable:   /apps/gromacs/5.1.4/bin/gmx_mpi
+;	Data prefix:  /apps/gromacs/5.1.4
+;	Command line:
+;	  gmx_mpi pdb2gmx -f 10mer_b-DNA.pdb -o _output/b_dna.gro -ignh -p _output/b_dna.top
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Include chain topologies
+#include "b_dna_DNA_chain_A.itp"
+#include "b_dna_DNA_chain_B.itp"
+
+; Include water topology
+#include "amber99sb-ildn.ff/spce.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+DNA_chain_A         1
+DNA_chain_B         1
+SOL         3815
+NA               18

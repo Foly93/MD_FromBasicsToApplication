@@ -1,0 +1,12 @@
+Filename	Core Time (s)
+a_tr12_prod.log:4550.448
+a_tr18_prod.log:4671.452
+a_sh8_prod.log:	4579.328
+a_sh12_prod.log:5891.789
+a_pme_prod.log:	9414.012
+b_tr8_prod.log:	5948.758
+b_tr12_prod.log:5843.044
+b_tr18_prod.log:6050.489
+b_sh8_prod.log:	5949.643
+b_sh12_prod.log:4247.880
+b_pme_prod.log:	6669.071
