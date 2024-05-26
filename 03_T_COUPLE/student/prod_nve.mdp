@@ -1,0 +1,47 @@
+title                   = small water box
+
+; Run parameters
+integrator              = md       
+nsteps                  = 500000    
+dt                      = 0.002    
+
+; Output control
+nstxout                 = 500      
+nstvout                 = 500      
+nstenergy               = 500      
+nstlog                  = 500      
+
+; Bond parameters
+continuation            = yes       
+constraint_algorithm    = lincs    
+constraints             = h-bonds  
+lincs_iter              = 1        
+lincs_order             = 4        
+
+; Nonbonded settings
+cutoff-scheme           = Verlet   
+ns_type                 = grid     
+nstlist                 = 10       
+rcoulomb                = 1.0      
+rvdw                    = 1.0      
+DispCorr                = EnerPres 
+
+; Electrostatics
+coulombtype             = PME      
+pme_order               = 4        
+fourierspacing          = 0.16     
+
+; Temperature coupling
+tcoupl                  = no            
+
+; Pressure coupling
+pcoupl                  = no       
+
+; Periodic boundary conditions
+pbc                     = xyz      
+
+; Velocity generation
+gen_vel                 = no      
+gen_temp                = 300      
+gen_seed                = -1       
+

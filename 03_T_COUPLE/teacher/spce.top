@@ -1,0 +1,25 @@
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre.itp"
+#endif
+
+; Include water topology
+#include "oplsaa.ff/spce.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+[ system ]
+; Name
+small spc water box
+
+[ molecules ]
+; Compound  #mols
+SOL         523

@@ -1,0 +1,27 @@
+integrator          =  md                   
+dt                  =  0.001                
+nsteps              =  5000000              
+;++++++++++++++++++++ Writing output
+nstxout             =  1000                 
+nstxout-compressed  =  1000                 
+nstvout             =  100000               
+nstlog              =  1000                 
+nstenergy           =  1000                 
+nstlist             =  10                   
+ns_type             =  grid                 
+;++++++++++++++++++++
+cutoff-scheme       =  verlet
+coulombtype         =  cut-off
+rlist               =  1.2                   
+rvdw                =  1.2                   
+rcoulomb            =  1.2                   
+;++++++++++++++++++++ Temperature coupling
+Tcoupl              =  berendsen
+ref-t		    =  300
+tau-t		    =  2
+tc-grps		    = system
+;++++++++++++++++++++ Pressure coupling
+Pcoupl              =  no
+;++++++++++++++++++++
+gen_vel             =  yes                   
+gen_temp            =  300                   

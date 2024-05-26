@@ -1,0 +1,140 @@
+GROMACS version:    2018.1
+Precision:          single
+Memory model:       64 bit
+MPI library:        thread_mpi
+OpenMP support:     enabled (GMX_OPENMP_MAX_THREADS = 64)
+GPU support:        disabled
+SIMD instructions:  SSE2
+FFT library:        fftw-3.3.7-sse2-avx
+RDTSCP usage:       disabled
+TNG support:        enabled
+Hwloc support:      hwloc-1.11.6
+Tracing support:    disabled
+Built on:           2018-03-31 17:12:46
+Built by:           buildd@debian [CMAKE]
+Build OS/arch:      Linux x86_64
+Build CPU vendor:   Intel
+
+
+
+###spc
+##nve
+Potential                   -45.412      0.014   0.128346  0.0931732  (kJ/mol)
+Kinetic En.                 5.91569     0.0067   0.125389  0.0460171  (kJ/mol)
+Total Energy               -39.4963       0.02  0.0402562    0.13919  (kJ/mol)
+Temperature                 237.392       0.27    5.03176    1.84663  (K)
+Heat capacity at constant volume Cv      =    1.80885 J/(mol K)
+
+##berendsen
+Potential                  -41.7969     0.0064   0.207121  0.0324267  (kJ/mol)
+Kinetic En.                 7.47368     0.0029   0.144717 -0.00177272  (kJ/mol)
+Total Energy               -34.3232     0.0068   0.156808  0.0306541  (kJ/mol)
+Temperature                 299.912       0.12    5.80735 -0.0711385  (K)
+Heat capacity at constant volume Cv      =    17.1955 J/(mol K)
+
+##nosehoover
+Potential                  -41.7867     0.0055   0.301072  0.0208705  (kJ/mol)
+Kinetic En.                 7.47621     0.0016   0.214259 -0.00663682  (kJ/mol)
+Total Energy               -34.3105     0.0044   0.399903  0.0142336  (kJ/mol)
+Temperature                 300.014      0.066    8.59802  -0.266329  (K)
+Heat capacity at constant volume Cv      =    111.762 J/(mol K)
+
+##nhc
+Potential                  -41.6952     0.0056   0.271743 -0.0150183  (kJ/mol)
+Kinetic En.                 7.47447     0.0029   0.186228 -0.0145848  (kJ/mol)
+Total Energy               -34.2207     0.0073   0.331394  -0.029603  (kJ/mol)
+Temperature                 299.944       0.11    7.47318  -0.585274  (K)
+Heat capacity at constant volume Cv      =    76.7849 J/(mol K)
+
+
+
+###spce
+##nve
+Potential                  -49.9378      0.017   0.140078   0.122939  (kJ/mol)
+Kinetic En.                 6.23203     0.0062   0.134945  0.0376614  (kJ/mol)
+Total Energy               -43.7058      0.023  0.0464435     0.1606  (kJ/mol)
+Temperature                 250.086       0.25    5.41522    1.51132  (K)
+Heat capacity at constant volume Cv      =    2.16939 J/(mol K)
+
+##berendsen
+Potential                  -46.7199      0.011   0.217851  0.0693625  (kJ/mol)
+Kinetic En.                 7.47735     0.0024   0.145026 -0.0162179  (kJ/mol)
+Total Energy               -39.2426     0.0089   0.177271  0.0531448  (kJ/mol)
+Temperature                  300.06      0.095    5.81977  -0.650809  (K)
+Heat capacity at constant volume Cv      =    21.9547 J/(mol K)
+
+##nosehoover
+Potential                   -46.707      0.017   0.327333  0.0259919  (kJ/mol)
+Kinetic En.                  7.4745    0.00087   0.214285 -0.00322357  (kJ/mol)
+Total Energy               -39.2325      0.017   0.425927  0.0227683  (kJ/mol)
+Temperature                 299.945      0.035    8.59908   -0.12936  (K)
+Heat capacity at constant volume Cv      =     126.84 J/(mol K)
+
+##nhc
+Potential                  -46.5736     0.0089   0.286628 -0.0436832  (kJ/mol)
+Kinetic En.                  7.4753     0.0034   0.189248 0.000145871  (kJ/mol)
+Total Energy               -39.0983      0.011     0.3424 -0.0435374  (kJ/mol)
+Temperature                 299.977       0.14    7.59436 0.00585535  (K)
+Heat capacity at constant volume Cv      =    81.9517 J/(mol K)
+
+
+
+###tip3p
+##nve
+Potential                  -45.0879     0.0039   0.113518 -0.00561175  (kJ/mol)
+Kinetic En.                 5.26433      0.005   0.112983 -0.0180723  (kJ/mol)
+Total Energy               -39.8235     0.0033 0.00712504 -0.0236842  (kJ/mol)
+Temperature                 211.253        0.2    4.53391  -0.725226  (K)
+Heat capacity at constant volume Cv      =  0.0715545 J/(mol K)
+
+##berendsen
+Potential                  -40.1146     0.0051   0.194394 0.00474606  (kJ/mol)
+Kinetic En.                 7.47597     0.0021   0.142748 -0.0130349  (kJ/mol)
+Total Energy               -32.6386     0.0055   0.145469 -0.00828874  (kJ/mol)
+Temperature                 300.004      0.083    5.72834   -0.52308  (K)
+Heat capacity at constant volume Cv      =    14.7894 J/(mol K)
+
+##nosehoover
+Potential                  -40.1073     0.0033   0.286783 -0.00781689  (kJ/mol)
+Kinetic En.                 7.47613     0.0022   0.211186 -0.00103643  (kJ/mol)
+Total Energy               -32.6311     0.0048   0.387939 -0.00885322  (kJ/mol)
+Temperature                 300.011       0.09    8.47474 -0.0415895  (K)
+Heat capacity at constant volume Cv      =    105.177 J/(mol K)
+
+##nhc
+Potential                  -40.0242     0.0053   0.258936 -0.00893296  (kJ/mol)
+Kinetic En.                 7.47521     0.0033   0.190303 0.00937371  (kJ/mol)
+Total Energy               -32.5489     0.0037   0.322481 0.000440723  (kJ/mol)
+Temperature                 299.974       0.13    7.63669   0.376157  (K)
+Heat capacity at constant volume Cv      =    72.6957 J/(mol K)
+
+
+
+###tip4p
+##nve
+Potential                  -45.5589      0.088   0.219121   0.615578  (kJ/mol)
+Kinetic En.                 5.93945      0.019   0.133359   0.138969  (kJ/mol)
+Total Energy               -39.6194       0.11   0.217884   0.754547  (kJ/mol)
+Temperature                 238.345       0.78    5.35157    5.57671  (K)
+Heat capacity at constant volume Cv      =    52.5664 J/(mol K)
+
+##berendsen
+Potential                  -41.3699      0.004   0.224376 -0.0288412  (kJ/mol)
+Kinetic En.                 7.47847     0.0019   0.147738 -0.00527755  (kJ/mol)
+Total Energy               -33.8914     0.0055   0.182139 -0.0341189  (kJ/mol)
+Temperature                 300.105      0.076    5.92861  -0.211784  (K)
+Heat capacity at constant volume Cv      =      23.17 J/(mol K)
+
+##nosehoover
+Potential                  -41.3731     0.0077   0.319183 -0.0167383  (kJ/mol)
+Kinetic En.                 7.47658    0.00092   0.213865 0.00451934  (kJ/mol)
+Total Energy               -33.8965     0.0073   0.416667 -0.0122189  (kJ/mol)
+Temperature                 300.029      0.037    8.58221   0.181359  (K)
+Heat capacity at constant volume Cv      =    121.316 J/(mol K)
+
+##nhc
+Potential                  -41.2573     0.0049   0.285823 -0.0224552  (kJ/mol)
+Kinetic En.                 7.47722     0.0019   0.188775 0.00480826  (kJ/mol)
+Total Energy                 -33.78     0.0052   0.343966 -0.0176469  (kJ/mol)
+Temperature                 300.055      0.076    7.57539   0.192953  (K)
+Heat capacity at constant volume Cv      =    82.6603 J/(mol K)
