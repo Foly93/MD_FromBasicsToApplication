@@ -1,0 +1,65 @@
+This file summarizes the averages of the polymer analysis
+
+
+POLYMER MODEL: fj
+Found points in the range from 0 to 179 (max 180)
+< angle >  = 89.9271
+< angle^2 > = 8171.4
+Std. Dev.   = 9.19281
+Found points in the range from 0 to 359 (max 360)
+< angle >  = 0.490892
+< angle^2 > = 637.593
+Std. Dev.   = 25.2458
+Selected 0: 'System'
+
+Average end to end distance: 0.666 (nm)
+
+Average radius of gyration:  0.278 (nm)
+
+
+POLYMER MODEL: fr
+Found points in the range from 102 to 172 (max 180)
+< angle >  = 119.844
+< angle^2 > = 14363.5
+Std. Dev.   = 0.954021
+Found points in the range from 0 to 359 (max 360)
+ < angle >  = -0.391317
+< angle^2 > = 631.303
+Std. Dev.   = 25.1227
+Selected 0: 'System'
+
+Average end to end distance: 1.107 (nm)
+
+Average radius of gyration:  0.438 (nm)
+
+
+POLYMER MODEL: bonded
+Found points in the range from 89 to 172 (max 180)
+< angle >  = 119.836
+< angle^2 > = 14361.5
+Std. Dev.   = 0.944764
+Found points in the range from 0 to 359 (max 360)
+< angle >  = -0.237161
+< angle^2 > = 795.769
+Std. Dev.   = 28.2084
+Selected 0: 'System'
+
+Average end to end distance: 1.110 (nm)
+
+Average radius of gyration:  0.439 (nm)
+
+
+POLYMER MODEL: non_bonded
+Found points in the range from 102 to 172 (max 180)
+< angle >  = 119.872
+< angle^2 > = 14370.3
+Std. Dev.   = 0.988212
+Found points in the range from 0 to 359 (max 360)
+< angle >  = 0.159388
+< angle^2 > = 818.506
+Std. Dev.   = 28.6091
+Selected 0: 'System'
+
+Average end to end distance: 0.905 (nm)
+
+Average radius of gyration:  0.411 (nm)
