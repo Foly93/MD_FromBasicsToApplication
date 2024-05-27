@@ -1,0 +1,324 @@
+lambda_0/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_0/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.05, 0, 0) (25001 pts)
+
+
+lambda_1/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_1/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.05, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.05, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.1, 0, 0) (25001 pts)
+
+
+lambda_10/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_10/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.5, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.45, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.5, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.55, 0, 0) (25001 pts)
+
+
+lambda_11/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_11/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.55, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.5, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.55, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.6, 0, 0) (25001 pts)
+
+
+lambda_12/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_12/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.6, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.55, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.6, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.65, 0, 0) (25001 pts)
+
+
+lambda_13/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_13/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.65, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.6, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.65, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.7, 0, 0) (25001 pts)
+
+
+lambda_14/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_14/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.7, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.65, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.7, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.75, 0, 0) (25001 pts)
+
+
+lambda_15/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_15/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.75, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.7, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.75, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.8, 0, 0) (25001 pts)
+
+
+lambda_16/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_16/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.8, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.75, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.8, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.85, 0, 0) (25001 pts)
+
+
+lambda_17/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_17/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.85, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.8, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.85, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.9, 0, 0) (25001 pts)
+
+
+lambda_18/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_18/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.9, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.85, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.9, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.95, 0, 0) (25001 pts)
+
+
+lambda_19/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_19/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.95, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.9, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.95, 0, 0) (25001 pts)
+        delta H to (0, 0, 1, 0, 0) (25001 pts)
+
+
+lambda_2/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_2/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.1, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.05, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.1, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.15, 0, 0) (25001 pts)
+
+
+lambda_20/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_20/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 1, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.95, 0, 0) (25001 pts)
+        delta H to (0, 0, 1, 0, 0) (25001 pts)
+
+
+lambda_3/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_3/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.15, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.1, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.15, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.2, 0, 0) (25001 pts)
+
+
+lambda_4/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_4/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.2, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.15, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.2, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.25, 0, 0) (25001 pts)
+
+
+lambda_5/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_5/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.25, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.2, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.25, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.3, 0, 0) (25001 pts)
+
+
+lambda_6/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_6/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.3, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.25, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.3, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.35, 0, 0) (25001 pts)
+
+
+lambda_7/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_7/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.35, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.3, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.35, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.4, 0, 0) (25001 pts)
+
+
+lambda_8/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_8/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.4, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.35, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.4, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.45, 0, 0) (25001 pts)
+
+
+lambda_9/prod/prod.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_9/prod/prod.xvg: 0.0 - 500.0; lambda = (0, 0, 0.45, 0, 0)
+    dH/dl & foreign lambdas:
+        dH/dl (mass-lambda) (25001 pts)
+        dH/dl (coul-lambda) (25001 pts)
+        dH/dl (vdw-lambda) (25001 pts)
+        dH/dl (bonded-lambda) (25001 pts)
+        dH/dl (restraint-lambda) (25001 pts)
+        delta H to (0, 0, 0.4, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.45, 0, 0) (25001 pts)
+        delta H to (0, 0, 0.5, 0, 0) (25001 pts)
+
+
+
+Temperature: 298 K
+
+Detailed results in kT (see help for explanation):
+
+ lam_A  lam_B      DG   +/-     s_A   +/-     s_B   +/-   stdev   +/- 
+     0      1    0.08  0.00    0.03  0.00    0.04  0.00    0.24  0.00
+     1      2    0.07  0.00    0.03  0.00    0.03  0.00    0.25  0.00
+     2      3    0.05  0.00    0.03  0.00    0.04  0.00    0.27  0.00
+     3      4    0.05  0.00    0.03  0.00    0.03  0.00    0.27  0.00
+     4      5    0.03  0.01    0.04  0.00    0.05  0.00    0.29  0.00
+     5      6   -0.00  0.00    0.04  0.01    0.05  0.01    0.30  0.00
+     6      7   -0.03  0.01    0.05  0.00    0.06  0.00    0.32  0.00
+     7      8   -0.06  0.00    0.06  0.01    0.08  0.01    0.35  0.00
+     8      9   -0.11  0.00    0.07  0.01    0.09  0.01    0.38  0.01
+     9     10   -0.16  0.01    0.07  0.00    0.09  0.00    0.41  0.01
+    10     11   -0.23  0.01    0.11  0.01    0.13  0.01    0.46  0.01
+    11     12   -0.32  0.02    0.11  0.01    0.15  0.01    0.51  0.01
+    12     13   -0.46  0.01    0.17  0.02    0.20  0.02    0.58  0.01
+    13     14   -0.57  0.01    0.13  0.01    0.15  0.01    0.56  0.01
+    14     15   -0.59  0.00    0.12  0.01    0.12  0.01    0.47  0.01
+    15     16   -0.54  0.00    0.06  0.01    0.06  0.01    0.36  0.00
+    16     17   -0.42  0.00    0.03  0.00    0.03  0.01    0.25  0.00
+    17     18   -0.29  0.00    0.01  0.01    0.01  0.01    0.18  0.00
+    18     19   -0.16  0.00    0.01  0.00    0.01  0.00    0.13  0.00
+    19     20   -0.05  0.00    0.00  0.00    0.00  0.00    0.10  0.00
+
+
+Final results in kJ/mol:
+
+point      0 -      1,   DG  0.20 +/-  0.01
+point      1 -      2,   DG  0.17 +/-  0.01
+point      2 -      3,   DG  0.13 +/-  0.01
+point      3 -      4,   DG  0.11 +/-  0.01
+point      4 -      5,   DG  0.07 +/-  0.01
+point      5 -      6,   DG -0.00 +/-  0.01
+point      6 -      7,   DG -0.06 +/-  0.02
+point      7 -      8,   DG -0.16 +/-  0.01
+point      8 -      9,   DG -0.28 +/-  0.01
+point      9 -     10,   DG -0.39 +/-  0.02
+point     10 -     11,   DG -0.57 +/-  0.02
+point     11 -     12,   DG -0.80 +/-  0.04
+point     12 -     13,   DG -1.14 +/-  0.02
+point     13 -     14,   DG -1.41 +/-  0.02
+point     14 -     15,   DG -1.47 +/-  0.01
+point     15 -     16,   DG -1.33 +/-  0.01
+point     16 -     17,   DG -1.04 +/-  0.01
+point     17 -     18,   DG -0.71 +/-  0.01
+point     18 -     19,   DG -0.40 +/-  0.01
+point     19 -     20,   DG -0.13 +/-  0.00
+
+total      0 -     20,   DG -9.23 +/-  0.07
+

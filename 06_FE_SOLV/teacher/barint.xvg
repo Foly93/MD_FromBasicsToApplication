@@ -1,0 +1,37 @@
+# This file was created Thu Mar 30 10:46:40 2023
+# Created by:
+#                    :-) GROMACS - gmx bar, VERSION 5.1.4 (-:
+# 
+# Executable:   /apps/gromacs/5.1.4/bin/gmx_mpi
+# Data prefix:  /apps/gromacs/5.1.4
+# Command line:
+#   gmx_mpi bar -f lambda_0/prod/prod.xvg lambda_1/prod/prod.xvg lambda_10/prod/prod.xvg lambda_11/prod/prod.xvg lambda_12/prod/prod.xvg lambda_13/prod/prod.xvg lambda_14/prod/prod.xvg lambda_15/prod/prod.xvg lambda_16/prod/prod.xvg lambda_17/prod/prod.xvg lambda_18/prod/prod.xvg lambda_19/prod/prod.xvg lambda_2/prod/prod.xvg lambda_20/prod/prod.xvg lambda_3/prod/prod.xvg lambda_4/prod/prod.xvg lambda_5/prod/prod.xvg lambda_6/prod/prod.xvg lambda_7/prod/prod.xvg lambda_8/prod/prod.xvg lambda_9/prod/prod.xvg -o -oi
+# gmx bar is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Free energy integral"
+@    xaxis  label "\xl\f{}"
+@    yaxis  label "\xD\f{}G (kT)"
+@TYPE xy
+     0  0.00
+     1  0.08
+     2  0.15
+     3  0.20
+     4  0.25
+     5  0.28
+     6  0.28
+     7  0.25
+     8  0.18
+     9  0.07
+    10 -0.09
+    11 -0.32
+    12 -0.64
+    13 -1.10
+    14 -1.67
+    15 -2.27
+    16 -2.81
+    17 -3.23
+    18 -3.51
+    19 -3.67
+    20 -3.73
