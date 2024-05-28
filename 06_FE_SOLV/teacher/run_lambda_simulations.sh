@@ -24,7 +24,7 @@ do
 		&>$OUTDIR/grompp.$sim_phase \
 		|| { echo "something went wrong, check $OUTDIR/grompp.$sim_phase"; exit; }
 	gmx_mpi mdrun \
-		-ntomp 6\
+		-ntomp 6 \
 		-deffnm $OUTDIR/$sim_phase &>$OUTDIR/mdrun.$sim_phase \
 		|| { echo "something went wrong, check $OUTDIR/mdrun.$sim_phase"; exit; }
 

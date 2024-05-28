@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Set some environment variables 
-FREE_ENERGY=$(pwd)
-MDP=$FREE_ENERGY/MDP
-
-# make the user aware of his/her choices
-echo "Free energy home directory set to $FREE_ENERGY"
-echo ".mdp files are stored in $MDP"
-
 # loop over all values of lambda
 # $() is called a command substitution, where the output of that command
 # can be transferred into a new command or, in this case into 
@@ -28,19 +20,23 @@ do
 	lambdadir=$FREE_ENERGY/lambda_$l	# current lambda value
 
 	# loop over all different simulation steps
-	for sim in <<<INSERT THE CORRECT ITERABLES>>>
+	for sim_phase in <<<INSERT THE CORRECT ITERABLES>>>
 	do
-		# preliminaries before the simulations are executed
-		cwd="$lambdadir/$sim"		# set the current working directory
-		cat $sim.banner			# Concatenate the according banner to give information about the current run (just for fun) 
-		mkdir -p $cwd			# create the current working directory
+		# Concatenate the according banner to give information about the current run (just for fun)
+		cat $sim_phase.banner 
 		
 		# start the run of the corresponding lambda and simulation step
-		gmx grompp -f $MDP/${sim}_${l}.mdp -c $wd_prev/$sim_prev.gro -p $FREE_ENERGY/topol.top -o $cwd/$sim.tpr -po $cwd/mdout.mdp &>$cwd/grompp.$sim || { echo "something went wrong, check $cwd/grompp.$sim"; exit; }
-		gmx mdrun -deffnm <<<SET THE OPTION FOR THIS FLAG YOURSELF>>> &>$cwd/mdrun.$sim || { echo "something went wrong, check $cwd/mdrun.$sim"; exit; }
+		gmx grompp \
+			-f $MDP/${sim_phase}_${l}.mdp \
+			-c $wd_prev/$sim_phase_prev.gro \
+			-p $FREE_ENERGY/topol.top \
+			-o $cwd/$sim_phase.tpr \
+			-po $cwd/mdout.mdp &>$cwd/grompp.$sim_phase \
+			|| { echo "something went wrong, check $cwd/grompp.$sim_phase"; exit; }
+		gmx mdrun \
+			-deffnm <<<SET THE OPTION FOR THIS FLAG YOURSELF>>> &>$cwd/mdrun.$sim_phase \
+			|| { echo "something went wrong, check $cwd/mdrun.$sim_phase"; exit; }
 
-		# save the name of the current simulation step to access it in the next iteration 
-		sim_prev=$sim			# name of next simulations input file
-		wd_prev="$lambdadir/$sim"	# name of next simulations input directory
+		gro_file="$OUTDIR/$sim_phase.gro"
 	<<<YOU ARE NOT done YET. SOMETHING IS MISSING HERE...>>>
 done
