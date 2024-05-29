@@ -5,7 +5,6 @@ mkdir -p _output
 
 for l in $(seq 0 20)
 do
-	mkdir -p _output/lambda_$l
 	echo "Starting minimization for lambda = $l ..." 
 
 	# loop over all different simulation steps

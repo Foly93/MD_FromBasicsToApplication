@@ -7,6 +7,8 @@ l=$1
 OUTDIR="_output/lambda_$l"
 gro_file="methane_water.gro"
 
+mkdir -p $OUTDIR
+
 # Simulation Runs
 # loop over all different simulation steps
 for sim_phase in em nvt npt prod

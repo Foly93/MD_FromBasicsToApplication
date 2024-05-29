@@ -1,7 +1,6 @@
 #!/bin/bash
 
-mkdir -p MDP
-echo "Should we just test the simulation workflow? [y/n]"
+echo "Is this just a test run? (recommended for first try)? [y/n]"
 read TEST
 
 # for loops a very useful tools in bash and also in almost 
@@ -15,12 +14,12 @@ do
 	for i in <<<INSERT THE ITERABLES HERE>>>
 	do
 		# What means the '-E' option of 'sed'? Add some comments
-		sed -E "s/(init_lambda_state\s+=\s+)0/\1$i/" ${mdp}.mdp > ./MDP/${mdp}_${i}.mdp
+		sed -E "s/(init_lambda_state\s+=\s+)0/\1$i/" ${mdp}.mdp > ${mdp}_${i}.mdp
 
 		if [[ $TEST == y ]];
 		then
 			# what does this command do? Add some comments
-			sed -i 's/nsteps.*/nsteps = 500/g' ./MDP/${mdp}_${i}.mdp
+			sed -i 's/nsteps.*/nsteps = 500/g' ${mdp}_${i}.mdp
 		fi
 	done
 done
