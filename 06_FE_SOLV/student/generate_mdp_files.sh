@@ -14,7 +14,7 @@ do
 	for i in <<<INSERT THE ITERABLES HERE>>>
 	do
 		# What means the '-E' option of 'sed'? Add some comments
-		sed -E "s/(init_lambda_state\s+=\s+)0/\1$i/" ${mdp}.mdp > ${mdp}_${i}.mdp
+		sed -E "s/(init.lambda.state\s+=\s+)0/\1$i/" ${mdp}.mdp > ${mdp}_${i}.mdp
 
 		if [[ $TEST == y ]];
 		then

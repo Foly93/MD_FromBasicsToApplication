@@ -3,7 +3,7 @@
 mkdir -p _trash
 mkdir -p _output
 
-for l in $(seq 0 20)
+for l in 6 #$(seq 0 20)
 do
 	echo "Starting minimization for lambda = $l ..." 
 

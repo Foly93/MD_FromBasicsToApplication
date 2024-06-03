@@ -1,36 +1,36 @@
-# This file was created Thu Mar 30 10:46:40 2023
+# This file was created Mon Jun  3 18:01:53 2024
 # Created by:
 #                    :-) GROMACS - gmx bar, VERSION 5.1.4 (-:
 # 
 # Executable:   /apps/gromacs/5.1.4/bin/gmx_mpi
 # Data prefix:  /apps/gromacs/5.1.4
 # Command line:
-#   gmx_mpi bar -f lambda_0/prod/prod.xvg lambda_1/prod/prod.xvg lambda_10/prod/prod.xvg lambda_11/prod/prod.xvg lambda_12/prod/prod.xvg lambda_13/prod/prod.xvg lambda_14/prod/prod.xvg lambda_15/prod/prod.xvg lambda_16/prod/prod.xvg lambda_17/prod/prod.xvg lambda_18/prod/prod.xvg lambda_19/prod/prod.xvg lambda_2/prod/prod.xvg lambda_20/prod/prod.xvg lambda_3/prod/prod.xvg lambda_4/prod/prod.xvg lambda_5/prod/prod.xvg lambda_6/prod/prod.xvg lambda_7/prod/prod.xvg lambda_8/prod/prod.xvg lambda_9/prod/prod.xvg -o -oi
+#   gmx_mpi bar -f _output/lambda_0/prod.xvg _output/lambda_1/prod.xvg _output/lambda_10/prod.xvg _output/lambda_11/prod.xvg _output/lambda_12/prod.xvg _output/lambda_13/prod.xvg _output/lambda_14/prod.xvg _output/lambda_15/prod.xvg _output/lambda_16/prod.xvg _output/lambda_17/prod.xvg _output/lambda_18/prod.xvg _output/lambda_19/prod.xvg _output/lambda_2/prod.xvg _output/lambda_20/prod.xvg _output/lambda_3/prod.xvg _output/lambda_4/prod.xvg _output/lambda_5/prod.xvg _output/lambda_6/prod.xvg _output/lambda_7/prod.xvg _output/lambda_8/prod.xvg _output/lambda_9/prod.xvg -o -oi
 # gmx bar is part of G R O M A C S:
 #
-# Grunge ROck MAChoS
+# GRoups of Organic Molecules in ACtion for Science
 #
 @    title "Free energy differences"
 @    xaxis  label "\xl\f{}"
 @    yaxis  label "\xD\f{}G (kT)"
 @TYPE xydy
- 0.500  0.08  0.00
- 1.500  0.07  0.00
- 2.500  0.05  0.00
- 3.500  0.05  0.00
- 4.500  0.03  0.01
- 5.500 -0.00  0.00
- 6.500 -0.03  0.01
- 7.500 -0.06  0.00
- 8.500 -0.11  0.00
- 9.500 -0.16  0.01
-10.500 -0.23  0.01
+ 0.500  0.08  0.01
+ 1.500  0.07  0.01
+ 2.500  0.05  0.01
+ 3.500  0.03  0.00
+ 4.500  0.02  0.00
+ 5.500  0.00  0.01
+ 6.500 -0.03  0.00
+ 7.500 -0.06  0.01
+ 8.500 -0.10  0.01
+ 9.500 -0.15  0.00
+10.500 -0.21  0.01
 11.500 -0.32  0.02
-12.500 -0.46  0.01
-13.500 -0.57  0.01
-14.500 -0.59  0.00
-15.500 -0.54  0.00
-16.500 -0.42  0.00
-17.500 -0.29  0.00
+12.500 -0.44  0.03
+13.500 -0.56  0.02
+14.500 -0.60  0.01
+15.500 -0.54  0.01
+16.500 -0.41  0.00
+17.500 -0.28  0.00
 18.500 -0.16  0.00
 19.500 -0.05  0.00

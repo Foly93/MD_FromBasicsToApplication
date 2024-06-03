@@ -8,7 +8,7 @@ do
 	for i in $(seq 0 20)
 	do
 		# '-E' enables regular expression in the sed pattern between '/../../' and groups with '()'
-		sed -E "s/(init_lambda_state\s+=\s+)0/\1$i/" ${mdp}.mdp > ${mdp}_${i}.mdp
+		sed -E "s/(init.lambda.state\s+=\s+)0/\1$i/" ${mdp}.mdp > ${mdp}_${i}.mdp
 
 		if [[ $TEST == y ]];
 		then

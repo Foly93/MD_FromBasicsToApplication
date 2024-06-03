@@ -17,6 +17,7 @@ do
 	cat $sim_phase.banner
 
 	# start the run of the corresponding lambda and simulation step
+	# for '--gres:gpu:0' in 'submit_script.sh', set '-ntomp 6' after 'mdrun'
 	gmx_mpi grompp \
 		-f ${sim_phase}_$l.mdp \
 		-c $gro_file \
@@ -26,7 +27,6 @@ do
 		&>$OUTDIR/grompp.$sim_phase \
 		|| { echo "something went wrong, check $OUTDIR/grompp.$sim_phase"; exit; }
 	gmx_mpi mdrun \
-		-ntomp 6 \
 		-deffnm $OUTDIR/$sim_phase &>$OUTDIR/mdrun.$sim_phase \
 		|| { echo "something went wrong, check $OUTDIR/mdrun.$sim_phase"; exit; }
 

@@ -45,7 +45,7 @@ compressibility          = 4.5e-05
 ref-p                    = 1.0 
 ; Free energy control stuff
 free-energy              = yes
-init-lambda-state        = 0
+init-lambda-state        = 4
 delta-lambda             = 0
 calc-lambda-neighbors    = 1        ; only immediate neighboring windows
 couple-moltype           = Methane  ; name of moleculetype to decouple
