@@ -1,0 +1,1828 @@
+AutoDock-GPU version: v1.5.3-68-g7081fe8fd972d8e584487ef9aae61ccc32097f68
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               ligand.pdbqt
+Grid fld file:                             complex.maps.fld
+
+Random seed:                               1720714516, 262336
+Number of runs:                            20
+Number of energy evaluations:              1132076
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          /home/luis/AutoDock-GPU/bin/autodock_gpu_64wi -M complex.maps.fld -L ligand.pdbqt 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             ../../_inp/complex
+Number of grid points (x, y, z):           25, 25, 31
+Grid center (x, y, z):                     36.120000, 6.160000, 0.210000A
+Grid size (x, y, z):                       9.000000, 9.000000, 11.250000A
+Grid spacing:                              0.375000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               ligand
+Number of atoms:                           27
+Number of rotatable bonds:                 6
+Number of atom types:                      7
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 20
+DPF> fld complex.maps.fld
+DPF> move ligand.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    1132300
+Number of generations used:                229
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+INPUT-LIGAND-PDBQT: REMARK  Name = ZINC000284711742
+INPUT-LIGAND-PDBQT: REMARK  6 active torsions:
+INPUT-LIGAND-PDBQT: REMARK  status: ('A' for Active; 'I' for Inactive)
+INPUT-LIGAND-PDBQT: REMARK    1  A    between atoms: C2_2  and  C16_16
+INPUT-LIGAND-PDBQT: REMARK    2  A    between atoms: N3_3  and  C4_4
+INPUT-LIGAND-PDBQT: REMARK    3  A    between atoms: C4_4  and  C5_5
+INPUT-LIGAND-PDBQT: REMARK    4  A    between atoms: C5_5  and  N6_6
+INPUT-LIGAND-PDBQT: REMARK    5  A    between atoms: N18_18  and  C19_19
+INPUT-LIGAND-PDBQT: REMARK    6  A    between atoms: C19_19  and  C20_20
+INPUT-LIGAND-PDBQT: REMARK                            x       y       z     vdW  Elec       q    Type
+INPUT-LIGAND-PDBQT: REMARK                         _______ _______ _______ _____ _____    ______ ____
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: ATOM      1  O1  ZIN A   1       0.002  -0.004   0.002  0.00  0.00    -0.510 OA
+INPUT-LIGAND-PDBQT: ATOM      2  C2  ZIN A   1      -0.014   1.209   0.009  0.00  0.00    +0.510 C 
+INPUT-LIGAND-PDBQT: ATOM      3  N3  ZIN A   1       1.143   1.899   0.001  0.00  0.00    -0.700 N 
+INPUT-LIGAND-PDBQT: ATOM      4  H27 ZIN A   1       1.130   2.869   0.007  0.00  0.00    +0.420 HD
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: BRANCH   2   5
+INPUT-LIGAND-PDBQT: ATOM      5  C16 ZIN A   1      -1.319   1.939   0.019  0.00  0.00    +0.510 C 
+INPUT-LIGAND-PDBQT: ATOM      6  O17 ZIN A   1      -1.335   3.152   0.025  0.00  0.00    -0.520 OA
+INPUT-LIGAND-PDBQT: ATOM      7  N18 ZIN A   1      -2.477   1.249   0.021  0.00  0.00    -0.700 N 
+INPUT-LIGAND-PDBQT: ATOM      8  H42 ZIN A   1      -2.463   0.279   0.015  0.00  0.00    +0.420 HD
+INPUT-LIGAND-PDBQT: BRANCH   7   9
+INPUT-LIGAND-PDBQT: ATOM      9  C19 ZIN A   1      -3.755   1.964   0.030  0.00  0.00    +0.320 C 
+INPUT-LIGAND-PDBQT: BRANCH   9  10
+INPUT-LIGAND-PDBQT: ATOM     10  C20 ZIN A   1      -4.904   0.954   0.030  0.00  0.00    +0.030 C 
+INPUT-LIGAND-PDBQT: ATOM     11  C22 ZIN A   1      -6.235   1.702   0.046  0.00  0.00    +0.130 C 
+INPUT-LIGAND-PDBQT: ATOM     12  S23 ZIN A   1      -7.601   0.530   0.254  0.00  0.00    -0.240 S 
+INPUT-LIGAND-PDBQT: ATOM     13  C24 ZIN A   1      -7.490  -0.507  -1.227  0.00  0.00    +0.130 C 
+INPUT-LIGAND-PDBQT: ATOM     14  C25 ZIN A   1      -6.160  -1.254  -1.243  0.00  0.00    +0.130 C 
+INPUT-LIGAND-PDBQT: ATOM     15  S26 ZIN A   1      -4.795  -0.081  -1.453  0.00  0.00    -0.230 S 
+INPUT-LIGAND-PDBQT: ENDBRANCH   9  10
+INPUT-LIGAND-PDBQT: ENDBRANCH   7   9
+INPUT-LIGAND-PDBQT: ENDBRANCH   2   5
+INPUT-LIGAND-PDBQT: BRANCH   3  16
+INPUT-LIGAND-PDBQT: ATOM     16  C4  ZIN A   1       2.422   1.184  -0.015  0.00  0.00    +0.240 C 
+INPUT-LIGAND-PDBQT: BRANCH  16  17
+INPUT-LIGAND-PDBQT: ATOM     17  C5  ZIN A   1       3.571   2.194  -0.020  0.00  0.00    +0.220 C 
+INPUT-LIGAND-PDBQT: BRANCH  17  18
+INPUT-LIGAND-PDBQT: ATOM     18  N6  ZIN A   1       4.853   1.477  -0.036  0.00  0.00    -0.520 NA
+INPUT-LIGAND-PDBQT: ATOM     19  C7  ZIN A   1       4.937   0.572  -1.194  0.00  0.00    +0.170 C 
+INPUT-LIGAND-PDBQT: ATOM     20  C8  ZIN A   1       6.393   0.141  -1.369  0.00  0.00    +0.090 C 
+INPUT-LIGAND-PDBQT: ATOM     21  C9  ZIN A   1       6.943  -0.359  -0.058  0.00  0.00    -0.070 A 
+INPUT-LIGAND-PDBQT: ATOM     22  C10 ZIN A   1       8.104  -1.117  -0.073  0.00  0.00    +0.000 A 
+INPUT-LIGAND-PDBQT: ATOM     23  C11 ZIN A   1       8.643  -1.592   1.106  0.00  0.00    +0.000 A 
+INPUT-LIGAND-PDBQT: ATOM     24  C12 ZIN A   1       8.022  -1.309   2.308  0.00  0.00    +0.000 A 
+INPUT-LIGAND-PDBQT: ATOM     25  C13 ZIN A   1       6.866  -0.555   2.325  0.00  0.00    +0.000 A 
+INPUT-LIGAND-PDBQT: ATOM     26  C14 ZIN A   1       6.322  -0.080   1.141  0.00  0.00    -0.080 A 
+INPUT-LIGAND-PDBQT: ATOM     27  C15 ZIN A   1       5.053   0.728   1.209  0.00  0.00    +0.230 C 
+INPUT-LIGAND-PDBQT: ENDBRANCH  17  18
+INPUT-LIGAND-PDBQT: ENDBRANCH  16  17
+INPUT-LIGAND-PDBQT: ENDBRANCH   3  16
+INPUT-LIGAND-PDBQT: TORSDOF 6
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -1.72 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -3.51 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -3.41 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.10 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -3.51 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -2.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -2.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      34.734   6.452  -3.591 -0.17 +0.50    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      35.689   6.476  -2.844 -0.21 -0.35    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      36.467   7.574  -2.778 -0.02 +0.52    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      37.231   7.592  -2.181 +0.27 -0.24    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      36.000   5.287  -1.991 -0.25 -0.09    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.765   4.170  -2.400 -0.24 -0.10    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      36.542   5.459  -0.769 +0.03 +0.00    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      36.731   6.353  -0.444 +0.34 -0.06    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.847   4.295   0.066 -0.38 +0.12    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      37.239   4.763   1.469 +0.06 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      37.993   6.087   1.368 -0.02 +0.02    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      38.645   6.554   2.993 -0.40 -0.09    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      37.151   6.766   3.996 +0.52 +0.01    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      36.397   5.443   4.096 -0.22 -0.00    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.745   4.979   2.470 -0.05 +0.00    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.159   8.740  -3.609 -0.37 -0.27    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      35.892   9.950  -2.712 +0.65 -0.23    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      34.989   9.561  -1.621 +0.05 +0.41    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      34.065  10.657  -1.284 -0.17 -0.17    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      32.933  10.092  -0.427 +0.17 -0.07    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      33.503   9.291   0.716 -0.47 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      32.682   8.998   1.794 -0.31 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      33.163   8.264   2.859 -0.70 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      34.471   7.818   2.850 -0.72 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.291   8.108   1.778 -0.55 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.809   8.848   0.709 -0.18 +0.04    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.744   9.150  -0.433 -0.07 -0.12    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   2 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        2
+DOCKED: USER    Run = 2
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +1.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.10 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -0.08 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.18 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.10 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.91 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.91 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      37.198   7.396  -2.720 +0.17 +0.31    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      36.003   7.477  -2.528 -0.21 -0.34    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      35.189   6.471  -2.903 +0.06 +0.48    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      34.234   6.537  -2.749 +0.41 -0.20    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      35.434   8.691  -1.866 +0.08 -0.34    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.571   9.782  -2.380 -0.01 +0.50    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.769   8.574  -0.700 +0.50 +0.31    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.659   7.701  -0.290 +0.36 -0.13    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.211   9.763  -0.052 +0.30 -0.23    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      33.806   9.420   1.382 -0.02 -0.02    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      32.737   8.329   1.359 +0.41 -0.10    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      32.097   8.054   3.032 +1.58 +0.16    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      33.551   7.478   3.946 +0.15 -0.08    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      34.619   8.568   3.968 -0.29 -0.07    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.260   8.841   2.296 +0.05 +0.11    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      35.747   5.279  -3.546 -0.01 -0.24    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      36.426   4.402  -2.492 -0.49 -0.00    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      36.625   5.180  -1.262 -0.16 -0.01    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      38.043   5.534  -1.085 -0.10 -0.00    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      38.141   6.628  -0.022 -0.11 -0.01    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.371   6.221   1.208 -0.49 -0.00    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      37.620   6.889   2.397 -0.55 +0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      36.934   6.549   3.546 -0.58 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      35.992   5.538   3.510 -0.59 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.743   4.872   2.328 +0.19 +0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      36.433   5.210   1.173 -0.42 -0.01    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      36.135   4.446  -0.090 -0.27 +0.07    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   3 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        3
+DOCKED: USER    Run = 3
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.06 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -1.73 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -1.80 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.07 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -1.73 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.76 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.76 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      35.449   8.681   4.056 -0.26 +0.22    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      34.948   8.124   3.102 -0.32 -0.21    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      35.019   6.783   2.989 +0.00 +0.19    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      34.618   6.338   2.226 +0.42 -0.09    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      34.244   8.925   2.054 -0.07 -0.30    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      33.142   9.380   2.277 -0.12 +0.35    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.835   9.142   0.861 +0.52 +0.44    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      35.717   8.778   0.685 +0.19 -0.19    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.146   9.927  -0.165 +0.13 -0.24    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      34.663   9.525  -1.547 +1.16 -0.02    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      35.607  10.606  -2.069 +0.83 -0.12    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      36.068  10.250  -3.784 +0.11 +0.31    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      36.943   8.669  -3.662 -0.17 -0.16    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      36.000   7.589  -3.141 -0.47 -0.11    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.542   7.945  -1.424 -0.37 +0.11    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      35.703   5.997   4.020 -0.02 -0.04    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      37.216   6.094   3.815 -0.47 +0.03    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      37.530   5.913   2.391 -0.12 -0.08    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      37.683   7.212   1.716 -0.44 -0.02    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      38.357   6.980   0.364 -0.18 -0.01    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.640   5.889  -0.389 -0.47 +0.00    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      37.859   5.770  -1.753 -0.10 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      37.224   4.783  -2.479 -0.43 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      36.365   3.907  -1.841 -0.05 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      36.145   4.023  -0.484 -0.32 +0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      36.780   5.017   0.246 -0.51 -0.01    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      36.499   5.112   1.722 -0.27 +0.02    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   4 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        4
+DOCKED: USER    Run = 4
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +2.02 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.23 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.39 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.17 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.23 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +1.73 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +1.73 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      37.487   3.509   0.955 +0.62 -0.28    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      37.370   4.589   0.415 -0.08 +0.17    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      37.602   5.719   1.110 +0.09 -0.10    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      37.509   6.583   0.678 +0.33 -0.03    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      36.976   4.665  -1.025 -0.27 +0.11    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      37.818   4.555  -1.891 -0.31 +0.01    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      35.684   4.857  -1.361 +0.10 -0.07    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      35.011   4.944  -0.667 +0.41 +0.05    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      35.298   4.931  -2.771 -0.45 -0.10    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      35.968   6.143  -3.420 -0.01 -0.03    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      34.933   6.920  -4.231 +0.94 -0.19    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      35.746   8.238  -5.172 +2.26 +0.39    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      36.448   9.299  -3.882 -0.41 -0.17    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      37.482   8.523  -3.073 +1.52 -0.14    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      36.667   7.206  -2.131 -0.56 +0.12    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      37.995   5.645   2.520 -0.09 +0.07    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      36.743   5.614   3.397 -0.40 +0.01    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.880   6.753   3.059 -0.18 +0.09    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      34.517   6.557   3.581 -0.29 -0.06    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      33.780   7.895   3.530 -0.62 -0.05    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      33.915   8.504   2.159 -0.62 +0.04    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      33.042   9.519   1.796 +0.00 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      33.133  10.107   0.550 -0.28 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      34.101   9.682  -0.340 -0.11 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      34.970   8.672   0.018 -0.48 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.878   8.079   1.268 -0.38 +0.03    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.841   6.972   1.610 -0.34 -0.05    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   5 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        5
+DOCKED: USER    Run = 5
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.76 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -2.55 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -2.68 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.14 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -2.55 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.64 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.64 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      35.375   4.580   2.127 +0.40 -0.01    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      36.486   4.867   1.735 +0.43 +0.07    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      37.381   5.410   2.583 +0.16 -0.13    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      38.270   5.640   2.270 +0.38 +0.15    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      36.866   4.612   0.311 -0.21 +0.14    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      38.027   4.694  -0.030 +0.02 -0.18    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      35.918   4.292  -0.592 +0.21 -0.27    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.990   4.226  -0.317 +0.61 +0.14    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.290   4.042  -1.986 -0.10 +0.13    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      36.367   5.371  -2.739 -0.55 -0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      34.959   5.812  -3.132 -0.57 -0.09    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      35.044   7.273  -4.201 +0.73 +0.32    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      35.812   8.523  -3.138 -0.28 -0.13    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      37.218   8.082  -2.745 +0.05 -0.10    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      37.132   6.622  -1.675 -0.58 +0.08    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      37.011   5.654   3.980 -0.34 +0.03    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      35.662   6.373   4.032 -0.27 -0.04    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.417   7.047   2.750 -0.16 +0.13    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      36.630   7.729   2.272 -0.19 -0.04    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.436   8.089   0.799 +0.04 -0.03    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      35.122   8.802   0.612 -0.21 +0.04    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      34.918   9.519  -0.557 -0.33 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      33.727  10.185  -0.769 -0.10 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      32.732  10.134   0.189 -0.25 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      32.933   9.421   1.354 -0.44 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.131   8.755   1.570 -0.51 +0.05    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      34.308   8.001   2.861 -0.60 -0.10    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   6 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        6
+DOCKED: USER    Run = 6
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +1.78 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.01 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -0.01 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.00 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.01 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.83 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.83 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      35.745   4.084   1.342 +0.77 -0.12    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      36.613   4.612   0.679 -0.13 +0.13    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      37.684   5.161   1.285 +0.29 -0.19    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      38.378   5.584   0.755 +0.38 +0.13    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      36.498   4.648  -0.811 -0.23 +0.12    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      37.491   4.532  -1.499 -0.30 -0.08    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      35.292   4.808  -1.391 +0.28 -0.07    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.498   4.899  -0.840 +0.69 +0.04    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      35.180   4.842  -2.850 -0.44 -0.09    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      35.913   6.072  -3.389 -0.13 -0.03    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      34.960   6.887  -4.260 +1.07 -0.20    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      35.862   8.232  -5.073 +1.17 +0.39    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      36.449   9.238  -3.686 -0.37 -0.16    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      37.401   8.423  -2.815 +0.87 -0.12    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      36.497   7.080  -2.002 -0.61 +0.11    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      37.799   5.121   2.745 +1.24 +0.07    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      37.923   6.546   3.287 -0.32 +0.05    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      36.675   7.277   3.030 -0.03 +0.08    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      35.507   6.504   3.485 -0.61 -0.04    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      34.297   7.437   3.537 -0.71 -0.04    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      34.168   8.185   2.234 -0.57 +0.03    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      32.960   8.800   1.941 -0.63 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      32.800   9.497   0.761 -0.47 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      33.851   9.584  -0.133 -0.20 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.054   8.972   0.156 -0.28 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      35.214   8.268   1.341 -0.42 +0.03    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      36.541   7.607   1.607 -0.31 -0.05    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   7 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        7
+DOCKED: USER    Run = 7
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -1.18 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -2.97 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -3.17 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.20 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -2.97 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.65 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.65 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      32.648   8.375   2.528 -0.33 +0.34    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      33.848   8.403   2.354 -0.31 -0.27    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      34.369   9.155   1.366 +0.32 +0.46    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      35.329   9.177   1.227 -0.14 -0.25    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      34.751   7.608   3.243 -0.33 -0.20    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.164   8.091   4.276 -0.24 +0.25    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      35.105   6.354   2.896 +0.04 +0.15    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.773   5.968   2.070 +0.46 -0.06    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      35.988   5.576   3.767 -0.22 -0.03    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      37.436   5.738   3.300 -0.63 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      37.636   7.149   2.751 +0.07 -0.00    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      39.281   7.296   2.006 -0.04 -0.04    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      40.398   7.011   3.403 -0.37 +0.13    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      40.199   5.601   3.951 +0.30 +0.19    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      38.554   5.456   4.698 -0.42 -0.19    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      33.486   9.939   0.499 -0.14 -0.19    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      34.117  10.070  -0.889 -0.04 -0.17    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.236   9.125  -1.009 -0.11 +0.31    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      35.719   9.053  -2.397 -0.19 -0.15    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      37.082   8.362  -2.402 -0.01 -0.07    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.007   7.071  -1.627 -0.52 +0.03    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      38.012   6.133  -1.805 +0.49 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      37.984   4.939  -1.112 -0.30 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      36.948   4.679  -0.234 -0.61 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.947   5.612  -0.056 +0.00 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      35.973   6.810  -0.754 -0.41 +0.02    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      34.851   7.792  -0.535 +0.53 -0.08    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   8 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        8
+DOCKED: USER    Run = 8
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.73 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -2.52 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -2.77 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.25 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -2.52 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      36.430   7.555  -3.632 -0.01 +0.55    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      35.710   7.405  -2.667 -0.16 -0.36    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      35.181   6.194  -2.402 +0.06 +0.32    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      34.605   6.074  -1.631 +0.37 -0.08    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      35.416   8.562  -1.767 +0.08 -0.32    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.894   9.651  -2.004 -0.07 +0.41    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.619   8.394  -0.693 +0.92 +0.27    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.236   7.523  -0.505 +0.37 -0.09    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.330   9.528   0.188 +0.27 -0.22    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      34.246   9.040   1.635 -0.27 -0.02    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      33.061   8.087   1.780 -0.03 -0.08    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      32.820   7.661   3.524 +0.05 +0.14    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      34.358   6.809   3.962 -0.01 -0.06    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      35.541   7.761   3.817 -0.58 -0.05    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.783   8.185   2.072 -0.37 +0.08    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      35.474   5.059  -3.281 -0.41 -0.16    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      36.896   4.560  -3.013 +0.02 -0.09    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      37.199   4.693  -1.582 -0.24 -0.05    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      36.036   4.325  -0.759 -0.29 +0.06    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.503   4.125   0.682 -0.12 +0.03    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.319   5.311   1.128 -0.42 -0.01    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      37.532   5.496   2.486 -0.36 +0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      38.276   6.568   2.936 -0.50 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      38.813   7.462   2.028 -0.29 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      38.601   7.280   0.676 -0.13 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      37.851   6.205   0.223 -0.23 -0.00    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      37.638   6.055  -1.260 -0.45 -0.03    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   9 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        9
+DOCKED: USER    Run = 9
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    = +11.69 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +9.90 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     = +10.35 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.45 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +9.90 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.99 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.99 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      37.824   5.101  -2.725 +0.94 +0.23    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      37.110   5.455  -1.810 -0.24 -0.09    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      36.176   6.404  -2.011 +0.02 +0.28    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      35.606   6.687  -1.279 +0.35 -0.12    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      37.263   4.832  -0.460 -0.26 +0.11    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      37.957   3.846  -0.322 +0.06 -0.30    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      36.631   5.365   0.605 +0.06 -0.07    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      36.077   6.154   0.494 +0.35 -0.04    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.782   4.755   1.927 +1.50 +0.06    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      37.730   5.605   2.775 -0.43 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      38.719   4.692   3.496 +2.80 +0.08    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      39.715   5.657   4.662 +1.42 -0.41    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      40.606   6.814   3.591 -0.31 +0.16    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      39.618   7.726   2.870 +1.23 +0.04    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      38.624   6.760   1.703 +0.57 -0.03    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.021   7.011  -3.336 -0.14 -0.23    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      35.782   8.514  -3.184 -0.18 -0.22    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.030   8.768  -1.948 +0.55 +0.35    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      34.713  10.199  -1.807 +2.45 -0.17    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      33.640  10.355  -0.729 -0.35 -0.08    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      34.049   9.610   0.516 +0.65 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      33.407   9.910   1.708 +1.67 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      33.749   9.249   2.870 -0.30 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      34.736   8.281   2.846 -0.71 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.376   7.981   1.660 -0.55 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      35.036   8.647   0.492 -0.37 +0.04    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.771   8.294  -0.774 -0.42 -0.11    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   10 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        10
+DOCKED: USER    Run = 10
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -2.82 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -4.61 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -4.26 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.35 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -4.61 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      35.803   4.688   2.763 +0.13 +0.01    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      36.625   5.389   2.213 -0.08 +0.04    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      37.053   6.520   2.807 +0.02 -0.01    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      37.711   7.081   2.367 +0.32 -0.01    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      37.170   4.995   0.877 -0.15 +0.11    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      37.284   3.821   0.592 -0.18 -0.27    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      37.535   5.943  -0.008 +0.02 -0.01    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      37.443   6.881   0.221 +0.31 -0.07    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      38.068   5.557  -1.316 +0.08 -0.02    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      36.910   5.293  -2.281 -0.56 -0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      35.923   4.325  -1.632 -0.49 +0.04    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      34.655   3.839  -2.832 +0.25 -0.06    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      33.827   5.403  -3.220 -0.34 -0.06    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      34.814   6.369  -3.867 +0.16 -0.16    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      36.080   6.856  -2.666 -0.55 +0.15    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.524   6.904   4.118 +0.08 -0.02    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      34.998   6.979   4.050 -0.40 -0.09    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      34.601   7.976   3.046 -0.22 +0.22    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      33.148   7.940   2.813 -0.59 -0.10    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      32.746   9.208   2.060 +0.11 -0.07    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      33.636   9.399   0.859 -0.33 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      33.224  10.268  -0.139 -0.51 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      34.011  10.474  -1.255 -0.02 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      35.217   9.809  -1.376 -0.23 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.629   8.943  -0.384 -0.36 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.838   8.734   0.736 -0.34 +0.04    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.323   7.770   1.786 -0.41 -0.08    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   11 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        11
+DOCKED: USER    Run = 11
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +2.49 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.70 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.63 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.07 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.70 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.37 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.37 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      34.030   9.535   3.201 -0.15 +0.29    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      34.027   8.327   3.088 -0.34 -0.26    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      33.072   7.721   2.356 +0.19 +0.41    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      33.069   6.755   2.266 +0.47 -0.20    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      35.088   7.511   3.754 -0.29 -0.20    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.632   7.926   4.756 +0.10 +0.21    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      35.438   6.314   3.243 -0.03 +0.13    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      35.001   5.983   2.442 +0.39 -0.07    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.477   5.515   3.896 -0.27 +0.00    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      37.833   5.821   3.258 -0.66 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      37.737   7.124   2.468 -0.33 -0.00    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      39.268   7.397   1.538 +0.42 -0.01    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      40.523   7.549   2.835 -0.45 +0.08    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      40.618   6.247   3.624 +0.31 +0.18    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      39.087   5.976   4.555 -0.33 -0.26    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      32.036   8.521   1.697 +0.65 -0.23    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      32.598   9.901   1.353 +1.51 -0.17    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      33.735   9.751   0.435 -0.00 +0.39    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      33.468  10.419  -0.849 -0.21 -0.15    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      34.786  10.552  -1.611 +0.16 -0.09    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      35.491   9.221  -1.656 -0.32 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      36.505   9.039  -2.585 +0.28 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      37.178   7.836  -2.658 +0.10 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      36.841   6.808  -1.799 -0.56 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.832   6.986  -0.874 -0.49 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      35.153   8.193  -0.802 -0.09 +0.03    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      34.051   8.336   0.215 +0.58 -0.10    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   12 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        12
+DOCKED: USER    Run = 12
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +5.89 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +4.10 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +4.35 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.25 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +4.10 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +2.80 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +2.80 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      38.036   8.380  -1.373 +0.72 +0.41    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      37.833   7.268  -0.932 -0.18 -0.17    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      37.021   6.419  -1.591 -0.02 +0.21    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      36.859   5.530  -1.239 +0.34 -0.03    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      38.491   6.837   0.339 +1.11 -0.02    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      38.326   5.709   0.755 +1.22 -0.14    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      39.269   7.700   1.022 +0.22 +0.14    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      39.402   8.601   0.688 -0.16 -0.40    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      39.914   7.277   2.267 +0.44 +0.12    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      38.846   6.852   3.275 -0.01 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      37.462   7.127   2.693 -0.15 -0.00    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      36.191   6.824   3.948 -0.57 +0.03    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      36.372   5.058   4.306 +0.56 -0.00    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      37.755   4.782   4.888 +1.05 +0.06    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      39.025   5.084   3.632 +0.35 -0.17    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.380   6.840  -2.841 -0.08 -0.17    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      36.099   8.343  -2.789 -0.46 -0.19    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.110   8.620  -1.739 +0.38 +0.31    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      34.907  10.069  -1.576 +0.20 -0.15    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      33.634  10.291  -0.758 -0.30 -0.08    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      33.673   9.452   0.493 -0.34 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      32.805   9.766   1.528 +0.80 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      32.806   9.020   2.690 +0.61 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      33.676   7.954   2.821 -0.73 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      34.540   7.640   1.792 +0.10 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.543   8.390   0.626 -0.37 +0.04    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.513   8.017  -0.464 -0.38 -0.09    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   13 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        13
+DOCKED: USER    Run = 13
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.78 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -2.57 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -2.83 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.26 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -2.57 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.48 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.48 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      36.463   7.595  -3.653 -0.01 +0.55    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      35.708   7.444  -2.715 -0.16 -0.37    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      35.184   6.229  -2.459 +0.06 +0.33    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      34.580   6.109  -1.710 +0.37 -0.09    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      35.363   8.605  -1.839 +0.16 -0.33    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.710   9.725  -2.152 -0.16 +0.45    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.667   8.408  -0.701 +0.82 +0.28    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.390   7.512  -0.452 +0.37 -0.10    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.329   9.546   0.156 +0.30 -0.22    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      34.226   9.076   1.609 -0.24 -0.02    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      33.041   8.125   1.750 -0.05 -0.08    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      32.776   7.720   3.496 +0.20 +0.14    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      34.309   6.875   3.965 -0.13 -0.06    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      35.493   7.826   3.823 -0.58 -0.05    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.758   8.228   2.077 -0.37 +0.08    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      35.527   5.089  -3.314 -0.37 -0.17    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      36.971   4.663  -3.043 +0.13 -0.10    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      37.249   4.763  -1.604 -0.24 -0.04    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      36.068   4.384  -0.811 -0.35 +0.06    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.507   4.150   0.634 -0.25 +0.03    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.321   5.322   1.120 -0.42 -0.01    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      37.510   5.476   2.485 -0.35 +0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      38.251   6.534   2.973 -0.53 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      38.808   7.444   2.094 -0.29 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      38.621   7.293   0.735 -0.13 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      37.874   6.232   0.245 -0.22 -0.00    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      37.688   6.116  -1.245 -0.42 -0.03    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   14 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        14
+DOCKED: USER    Run = 14
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +6.35 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +4.56 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +4.77 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.20 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +4.56 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.38 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.38 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      34.370   5.945  -2.020 +0.14 +0.12    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      35.296   6.728  -2.002 +0.07 -0.21    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      36.406   6.477  -2.723 +0.10 +0.44    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      37.147   7.103  -2.708 +0.30 -0.24    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      35.203   7.977  -1.185 +0.52 -0.21    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      36.007   8.870  -1.350 -0.22 +0.32    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.226   8.109  -0.266 +1.56 +0.23    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      33.583   7.394  -0.136 +0.45 -0.11    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.135   9.332   0.534 +0.15 -0.21    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      34.109   8.969   2.020 -0.52 -0.02    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      33.337   7.665   2.209 +0.42 -0.07    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      33.119   7.326   3.975 +0.64 +0.15    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      34.817   7.134   4.576 +1.44 -0.07    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      35.588   8.436   4.387 +0.21 -0.05    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.808   8.774   2.620 +0.43 +0.09    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.495   5.256  -3.529 +1.14 -0.23    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      37.505   4.298  -2.894 +0.27 -0.07    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      37.491   4.469  -1.435 -0.19 -0.11    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      36.141   4.252  -0.891 -0.39 +0.07    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.250   4.078   0.624 -0.03 +0.03    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.062   5.202   1.214 -0.45 -0.01    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      36.982   5.430   2.580 -0.39 +0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      37.713   6.447   3.161 -0.57 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      38.529   7.241   2.378 -0.31 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      38.609   7.016   1.018 +0.29 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      37.873   5.997   0.433 -0.05 -0.01    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      37.984   5.797  -1.056 -0.25 -0.01    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   15 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        15
+DOCKED: USER    Run = 15
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -1.28 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -3.07 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -3.01 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.06 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -3.07 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.90 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.90 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      35.046   6.591  -2.123 -0.08 +0.20    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      36.138   6.781  -1.630 -0.21 -0.19    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      36.895   7.815  -2.045 -0.04 +0.43    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      37.768   7.967  -1.651 +0.14 -0.25    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      36.641   5.872  -0.554 -0.21 -0.04    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      37.540   5.093  -0.791 -0.27 -0.06    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      36.095   5.919   0.677 +0.19 +0.03    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      35.377   6.543   0.866 +0.38 -0.07    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.588   5.029   1.731 -0.11 +0.04    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      37.982   5.482   2.169 +0.12 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      38.181   6.947   1.788 -0.45 +0.00    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      39.893   7.443   2.111 +0.18 -0.06    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      40.055   7.242   3.904 +0.73 +0.15    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      39.855   5.778   4.285 +0.13 +0.20    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      38.142   5.284   3.963 -0.18 -0.11    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.400   8.710  -3.095 -0.36 -0.24    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      35.739   9.932  -2.454 +0.30 -0.21    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      34.886   9.498  -1.338 +0.03 +0.37    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      33.903  10.537  -0.991 -0.29 -0.16    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      32.828   9.911  -0.102 -0.12 -0.06    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      33.474   9.161   1.035 -0.56 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      32.697   8.829   2.134 -0.31 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      33.249   8.140   3.196 -0.62 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      34.582   7.777   3.161 -0.75 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.357   8.107   2.067 -0.57 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.805   8.802   1.002 -0.20 +0.04    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.692   9.150  -0.164 +0.14 -0.12    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   16 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        16
+DOCKED: USER    Run = 16
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.45 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -1.34 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -1.43 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.08 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -1.34 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -2.63 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -2.63 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      32.507  10.360  -0.230 -0.25 +0.40    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      33.479   9.768   0.191 -0.05 -0.36    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      34.654   9.850  -0.462 +0.16 +0.50    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      35.431   9.376  -0.125 +0.09 -0.24    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      33.373   8.952   1.440 -0.24 -0.34    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      32.293   8.534   1.801 -0.25 +0.44    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.478   8.683   2.164 +0.02 +0.37    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      35.341   9.017   1.873 -0.01 -0.22    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.375   7.883   3.386 -0.51 -0.15    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      35.746   7.297   3.729 -0.72 -0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      35.607   5.797   3.976 +0.08 -0.02    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      37.175   5.122   4.583 +0.84 -0.05    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      38.318   5.422   3.210 -0.17 +0.06    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      38.456   6.922   2.964 -0.07 +0.03    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      36.888   7.595   2.355 -0.27 +0.04    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      34.760  10.654  -1.682 +0.34 -0.24    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      35.771  10.010  -2.632 +0.49 -0.23    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.987   8.610  -2.241 -0.16 +0.39    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      37.423   8.318  -2.100 +0.91 -0.13    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      37.577   6.994  -1.351 -0.52 -0.03    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      36.714   5.937  -1.991 -0.51 +0.02    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      36.972   4.606  -1.700 -0.62 +0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      36.204   3.606  -2.263 +1.17 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      35.171   3.935  -3.121 -0.09 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      34.913   5.259  -3.413 -0.51 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      35.687   6.264  -2.850 -0.52 +0.05    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.375   7.693  -3.208 -0.04 -0.20    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   17 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        17
+DOCKED: USER    Run = 17
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +1.67 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.12 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -0.03 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.09 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.12 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -2.15 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -2.15 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      36.757   4.301   0.622 -0.23 -0.17    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      37.341   5.365   0.642 -0.13 +0.08    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      37.988   5.800  -0.456 +0.11 -0.03    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      38.455   6.650  -0.440 +0.28 -0.02    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      37.336   6.197   1.884 -0.20 +0.03    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      37.845   7.298   1.879 -0.20 +0.04    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      36.764   5.724   3.010 +0.03 -0.04    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      36.356   4.844   3.013 +0.40 +0.02    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.758   6.539   4.226 +0.29 +0.01    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      35.481   7.380   4.270 -0.56 -0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      35.777   8.777   3.728 +0.53 -0.05    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      34.335   9.849   3.962 +0.26 +0.12    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      33.056   9.052   2.957 +0.30 -0.08    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      32.761   7.657   3.498 +0.06 -0.08    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      34.203   6.585   3.262 -0.10 +0.08    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      37.989   4.987  -1.676 -0.11 -0.02    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      36.583   4.973  -2.280 -0.52 -0.04    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      36.015   6.327  -2.230 -0.13 +0.24    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      37.024   7.336  -2.592 +0.38 -0.10    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.309   8.655  -2.881 -0.47 -0.08    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      35.369   8.990  -1.751 -0.23 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      34.901  10.291  -1.643 +0.14 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      34.036  10.638  -0.624 -0.27 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      33.634   9.684   0.291 -0.33 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      34.099   8.389   0.184 +0.33 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.970   8.039  -0.836 +0.40 +0.03    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      35.460   6.617  -0.904 -0.05 -0.06    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   18 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        18
+DOCKED: USER    Run = 18
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.52 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -2.31 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -2.55 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.24 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -2.31 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.47 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.47 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      36.491   7.603  -3.623 -0.02 +0.54    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      35.774   7.438  -2.659 -0.19 -0.36    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      35.273   6.217  -2.392 +0.05 +0.32    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      34.699   6.085  -1.621 +0.37 -0.09    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      35.453   8.590  -1.761 +0.05 -0.32    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.931   9.683  -1.982 -0.02 +0.40    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      34.631   8.414  -0.707 +0.90 +0.27    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.248   7.540  -0.532 +0.37 -0.09    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      34.316   9.543   0.171 +0.27 -0.22    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      34.265   9.060   1.622 -0.21 -0.02    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      33.097   8.093   1.793 -0.06 -0.08    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      32.894   7.671   3.544 -0.02 +0.14    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      34.451   6.842   3.956 -0.20 -0.06    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      35.618   7.809   3.785 -0.53 -0.04    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      35.821   8.228   2.034 -0.27 +0.08    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      35.592   5.086  -3.268 -0.40 -0.16    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      37.027   4.625  -3.002 +0.15 -0.09    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      37.319   4.738  -1.567 -0.24 -0.04    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      36.144   4.373  -0.759 -0.41 +0.06    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.597   4.152   0.684 -0.17 +0.03    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      37.422   5.324   1.150 -0.35 -0.01    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      37.625   5.491   2.512 -0.33 +0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      38.377   6.549   2.981 -0.50 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      38.931   7.447   2.088 -0.29 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      38.729   7.283   0.732 -0.02 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      37.972   6.222   0.260 -0.11 -0.00    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      37.770   6.091  -1.226 -0.38 -0.03    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   19 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        19
+DOCKED: USER    Run = 19
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +5.55 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +3.76 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +3.41 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.35 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +3.76 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.82 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.82 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      38.561   5.757  -1.209 +0.60 +0.02    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      37.756   5.575  -0.320 +0.01 +0.04    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      36.762   4.682  -0.483 -0.02 -0.18    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      36.117   4.536   0.227 +0.35 +0.11    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      37.872   6.338   0.961 +0.05 +0.03    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      38.351   7.453   0.962 -0.20 +0.11    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      37.444   5.787   2.115 +0.06 -0.10    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      37.060   4.896   2.113 +0.38 +0.08    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      37.557   6.534   3.369 -0.27 +0.05    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      36.237   7.252   3.655 -0.44 -0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      36.159   8.522   2.811 +0.68 -0.04    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      34.703   9.491   3.284 -0.30 +0.13    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      33.321   8.392   2.880 -0.66 -0.07    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      33.399   7.123   3.724 +0.28 -0.07    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      34.854   6.154   3.248 -0.40 +0.06    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      36.651   3.930  -1.736 +0.37 +0.13    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      35.368   4.335  -2.464 -0.48 +0.02    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.272   5.801  -2.506 -0.15 +0.23    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      36.501   6.395  -3.056 +0.74 -0.13    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.216   7.852  -3.418 -0.40 -0.09    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      35.570   8.555  -2.251 -0.19 +0.05    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      35.557   9.941  -2.238 +0.47 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      34.973  10.624  -1.190 +0.47 -0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      34.395   9.921  -0.149 +0.47 -0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      34.407   8.541  -0.161 +0.26 -0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      34.997   7.854  -1.211 +0.86 +0.03    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      34.996   6.349  -1.173 +0.90 -0.05    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   20 / 20
+Time taken for this run:   0.086s
+
+DOCKED: MODEL        20
+DOCKED: USER    Run = 20
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -1.35 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -3.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -3.30 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.16 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -3.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -1.73 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +1.79 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -1.73 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = ZINC000284711742
+DOCKED: REMARK  6 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C2_2  and  C16_16
+DOCKED: REMARK    2  A    between atoms: N3_3  and  C4_4
+DOCKED: REMARK    3  A    between atoms: C4_4  and  C5_5
+DOCKED: REMARK    4  A    between atoms: C5_5  and  N6_6
+DOCKED: REMARK    5  A    between atoms: N18_18  and  C19_19
+DOCKED: REMARK    6  A    between atoms: C19_19  and  C20_20
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  O1  ZIN A   1      32.703   7.930   2.736 -0.35 +0.33    -0.510 OA 
+DOCKED: ATOM      2  C2  ZIN A   1      33.890   8.142   2.605 -0.30 -0.26    +0.510 C  
+DOCKED: ATOM      3  N3  ZIN A   1      34.318   9.055   1.712 +0.19 +0.44    -0.700 N  
+DOCKED: ATOM      4  H27 ZIN A   1      35.267   9.223   1.607 -0.13 -0.26    +0.420 HD 
+DOCKED: ENDROOT
+DOCKED: BRANCH   2   5
+DOCKED: ATOM      5  C16 ZIN A   1      34.879   7.393   3.440 -0.32 -0.19    +0.510 C  
+DOCKED: ATOM      6  O17 ZIN A   1      35.366   7.917   4.419 -0.23 +0.23    -0.520 OA 
+DOCKED: ATOM      7  N18 ZIN A   1      35.228   6.135   3.104 +0.00 +0.13    -0.700 N  
+DOCKED: ATOM      8  H42 ZIN A   1      34.837   5.715   2.322 +0.41 -0.05    +0.420 HD 
+DOCKED: BRANCH   7   9
+DOCKED: ATOM      9  C19 ZIN A   1      36.196   5.401   3.922 -0.16 -0.02    +0.320 C  
+DOCKED: BRANCH   9  10
+DOCKED: ATOM     10  C20 ZIN A   1      37.608   5.655   3.391 -0.55 +0.01    +0.030 C  
+DOCKED: ATOM     11  C22 ZIN A   1      37.670   7.045   2.763 -0.11 +0.00    +0.130 C  
+DOCKED: ATOM     12  S23 ZIN A   1      39.270   7.284   1.947 +0.03 -0.04    -0.240 S  
+DOCKED: ATOM     13  C24 ZIN A   1      40.456   7.167   3.311 -0.42 +0.12    +0.130 C  
+DOCKED: ATOM     14  C25 ZIN A   1      40.394   5.778   3.939 +0.63 +0.21    +0.130 C  
+DOCKED: ATOM     15  S26 ZIN A   1      38.794   5.540   4.756 -0.36 -0.22    -0.230 S  
+DOCKED: ENDBRANCH   9  10
+DOCKED: ENDBRANCH   7   9
+DOCKED: ENDBRANCH   2   5
+DOCKED: BRANCH   3  16
+DOCKED: ATOM     16  C4  ZIN A   1      33.349   9.794   0.898 -0.08 -0.18    +0.240 C  
+DOCKED: BRANCH  16  17
+DOCKED: ATOM     17  C5  ZIN A   1      33.883   9.935  -0.528 -0.12 -0.16    +0.220 C  
+DOCKED: BRANCH  17  18
+DOCKED: ATOM     18  N6  ZIN A   1      35.043   9.051  -0.706 -0.10 +0.29    -0.520 NA 
+DOCKED: ATOM     19  C7  ZIN A   1      35.480   9.032  -2.112 -0.04 -0.13    +0.170 C  
+DOCKED: ATOM     20  C8  ZIN A   1      36.876   8.411  -2.178 -0.24 -0.07    +0.090 C  
+DOCKED: ATOM     21  C9  ZIN A   1      36.894   7.104  -1.428 -0.53 +0.03    -0.070 A  
+DOCKED: ATOM     22  C10 ZIN A   1      37.938   6.222  -1.661 -0.11 -0.00    +0.000 A  
+DOCKED: ATOM     23  C11 ZIN A   1      37.994   5.015  -0.993 -0.27 +0.00    +0.000 A  
+DOCKED: ATOM     24  C12 ZIN A   1      37.004   4.684  -0.087 -0.61 +0.00    +0.000 A  
+DOCKED: ATOM     25  C13 ZIN A   1      35.963   5.561   0.146 +0.08 +0.00    +0.000 A  
+DOCKED: ATOM     26  C14 ZIN A   1      35.904   6.772  -0.527 -0.35 +0.02    -0.080 A  
+DOCKED: ATOM     27  C15 ZIN A   1      34.743   7.690  -0.249 +0.76 -0.07    +0.230 C  
+DOCKED: ENDBRANCH  17  18
+DOCKED: ENDBRANCH  16  17
+DOCKED: ENDBRANCH   3  16
+DOCKED: TORSDOF 6
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -2.82 |  10 |     +0.05 |   4 |####
+   2 |     -1.72 |   1 |     +2.90 |   3 |###
+   3 |     -1.35 |  20 |     +0.10 |   4 |####
+   4 |     -0.78 |  13 |     +1.24 |   5 |#####
+   5 |     +0.06 |   3 |     +0.06 |   1 |#
+   6 |     +1.67 |  17 |     +3.61 |   2 |##
+   7 |     +5.89 |  12 |     +5.89 |   1 |#
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1     10       -2.82      0.00     32.13           RANKING
+   1      2      5       -0.76      1.51     32.27           RANKING
+   1      3      6       +1.78      1.83     32.31           RANKING
+   1      4      4       +2.02      1.71     32.33           RANKING
+   2      1      1       -1.72      0.00     32.28           RANKING
+   2      2     15       -1.28      1.33     32.84           RANKING
+   2      3      9      +11.69      1.57     33.05           RANKING
+   3      1     20       -1.35      0.00     32.74           RANKING
+   3      2      7       -1.18      0.31     32.74           RANKING
+   3      3     16       +0.45      1.84     32.14           RANKING
+   3      4     11       +2.49      1.28     32.51           RANKING
+   4      1     13       -0.78      0.00     32.24           RANKING
+   4      2      8       -0.73      0.09     32.23           RANKING
+   4      3     18       -0.52      0.12     32.31           RANKING
+   4      4      2       +1.89      0.94     31.93           RANKING
+   4      5     14       +6.35      1.07     32.27           RANKING
+   5      1      3       +0.06      0.00     32.42           RANKING
+   6      1     17       +1.67      0.00     32.47           RANKING
+   6      2     19       +5.55      1.24     32.51           RANKING
+   7      1     12       +5.89      0.00     33.18           RANKING
+
+Run time 1.735 sec
+Idle time 3.753 sec
