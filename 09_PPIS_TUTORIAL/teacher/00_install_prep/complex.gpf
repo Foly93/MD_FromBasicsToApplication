@@ -1,0 +1,22 @@
+parameter_file ../../_inp/AD4_additional_parameters_from_researchgate.dat
+npts 24 24 30
+gridfld complex.maps.fld
+spacing 0.375 # spacing(A)
+receptor_types N A C NA P OA SA
+ligand_types N C NA A F Cl P OA HD S
+receptor ../../_inp/complex.pdbqt
+gridcenter 36.12 6.16 0.21
+smooth 0.5
+map complex.A.map
+map complex.F.map
+map complex.NA.map
+map complex.N.map
+map complex.C.map
+map complex.Cl.map
+map complex.P.map
+map complex.OA.map
+map complex.HD.map
+map complex.S.map
+elecmap complex.e.map
+dsolvmap complex.d.map
+dielectric -0.1465

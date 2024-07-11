@@ -1,0 +1,50 @@
+# AVS field file
+#
+# AutoDock Atomic Affinity and Electrostatic Grids
+#
+# Created by /zfs/s01/z01/home/lvollmers/micromamba/envs/rpis/bin/autogrid4.
+#
+#SPACING 0.375
+#NELEMENTS 24 24 30
+#CENTER 36.120 6.160 0.210
+#MACROMOLECULE ../../_inp/complex.pdbqt
+#GRID_PARAMETER_FILE complex.gpf
+#
+ndim=3			# number of dimensions in the field
+dim1=25			# number of x-elements
+dim2=25			# number of y-elements
+dim3=31			# number of z-elements
+nspace=3		# number of physical coordinates per point
+veclen=12		# number of affinity values at each point
+data=float		# data type (byte, integer, float, double)
+field=uniform		# field type (uniform, rectilinear, irregular)
+coord 1 file=complex.maps.xyz filetype=ascii offset=0
+coord 2 file=complex.maps.xyz filetype=ascii offset=2
+coord 3 file=complex.maps.xyz filetype=ascii offset=4
+label=N-affinity	# component label for variable 1
+label=C-affinity	# component label for variable 2
+label=NA-affinity	# component label for variable 3
+label=A-affinity	# component label for variable 4
+label=F-affinity	# component label for variable 5
+label=Cl-affinity	# component label for variable 6
+label=P-affinity	# component label for variable 7
+label=OA-affinity	# component label for variable 8
+label=HD-affinity	# component label for variable 9
+label=S-affinity	# component label for variable 10
+label=Electrostatics	# component label for variable 10
+label=Desolvation	# component label for variable 11
+#
+# location of affinity grid files and how to read them
+#
+variable 1 file=complex.A.map filetype=ascii skip=6
+variable 2 file=complex.F.map filetype=ascii skip=6
+variable 3 file=complex.NA.map filetype=ascii skip=6
+variable 4 file=complex.N.map filetype=ascii skip=6
+variable 5 file=complex.C.map filetype=ascii skip=6
+variable 6 file=complex.Cl.map filetype=ascii skip=6
+variable 7 file=complex.P.map filetype=ascii skip=6
+variable 8 file=complex.OA.map filetype=ascii skip=6
+variable 9 file=complex.HD.map filetype=ascii skip=6
+variable 10 file=complex.S.map filetype=ascii skip=6
+variable 11 file=complex.e.map filetype=ascii skip=6
+variable 12 file=complex.d.map filetype=ascii skip=6
