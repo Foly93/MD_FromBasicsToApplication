@@ -1,0 +1,400 @@
+
+Select the Force Field:
+From '/apps/gromacs/5.1.4/share/gromacs/top':
+ 1: AMBER03 protein, nucleic AMBER94 (Duan et al., J. Comp. Chem. 24, 1999-2012, 2003)
+ 2: AMBER94 force field (Cornell et al., JACS 117, 5179-5197, 1995)
+ 3: AMBER96 protein, nucleic AMBER94 (Kollman et al., Acc. Chem. Res. 29, 461-469, 1996)
+ 4: AMBER99 protein, nucleic AMBER94 (Wang et al., J. Comp. Chem. 21, 1049-1074, 2000)
+ 5: AMBER99SB protein, nucleic AMBER94 (Hornak et al., Proteins 65, 712-725, 2006)
+ 6: AMBER99SB-ILDN protein, nucleic AMBER94 (Lindorff-Larsen et al., Proteins 78, 1950-58, 2010)
+ 7: AMBERGS force field (Garcia & Sanbonmatsu, PNAS 99, 2782-2787, 2002)
+ 8: CHARMM27 all-atom force field (CHARM22 plus CMAP for proteins)
+ 9: GROMOS96 43a1 force field
+10: GROMOS96 43a2 force field (improved alkane dihedrals)
+11: GROMOS96 45a3 force field (Schuler JCC 2001 22 1205)
+12: GROMOS96 53a5 force field (JCC 2004 vol 25 pag 1656)
+13: GROMOS96 53a6 force field (JCC 2004 vol 25 pag 1656)
+14: GROMOS96 54a7 force field (Eur. Biophys. J. (2011), 40,, 843-856, DOI: 10.1007/s00249-011-0700-9)
+15: OPLS-AA/L all-atom force field (2001 aminoacid dihedrals)
+
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+
+Select the Water Model:
+Reading 5yok_clean.pdb...
+Read 1732 atoms
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+There are 2 chains and 0 blocks of water and 198 residues with 1732 atoms
+
+  chain  #res #atoms
+  1 'A'    99    842  
+  2 'B'    99    890  
+
+Reading residue database... (amber99sb-ildn)
+Processing chain 1 'A' (842 atoms, 99 residues)
+Identified residue PRO1 as a starting terminus.
+Identified residue PHE99 as a ending terminus.
+Checking for duplicate atoms....
+Now there are 756 atoms. Deleted 86 duplicates.
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 99 residues with 1567 atoms
+Chain time...
+Processing chain 2 'B' (890 atoms, 99 residues)
+Identified residue PRO1 as a starting terminus.
+Identified residue PHE99 as a ending terminus.
+Checking for duplicate atoms....
+Now there are 756 atoms. Deleted 134 duplicates.
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 99 residues with 1567 atoms
+Chain time...
+Including chain 1 in system: 1567 atoms 99 residues
+Including chain 2 in system: 1567 atoms 99 residues
+		--------- PLEASE NOTE ------------
+You have successfully generated a topology from: 5yok_clean.pdb.
+The Amber99sb-ildn force field and the tip4pew water model are used.
+		--------- ETON ESAELP ------------
+Read 3134 atoms
+Volume: 232.946 nm^3, corresponds to roughly 104800 electrons
+No velocities found
+    system size :  3.719  5.021  5.304 (nm)
+    diameter    :  6.340               (nm)
+    center      :  1.383  2.624  1.952 (nm)
+    box vectors :  5.825  8.595  4.653 (nm)
+    box angles  :  90.00  90.00  90.00 (degrees)
+    box volume  : 232.95               (nm^3)
+    shift       :  2.637  1.396  2.068 (nm)
+new center      :  4.020  4.020  4.020 (nm)
+new box vectors :  8.040  8.040  8.040 (nm)
+new box angles  :  90.00  90.00  90.00 (degrees)
+new box volume  : 519.76               (nm^3)
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx_mpi uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Adding line for 16241 solvent molecules to topology file (topol.top)
+Analysing residue names:
+There are:   198    Protein residues
+There are: 16241      Water residues
+Analysing Protein...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x72, spacing 0.112 0.112 0.112
+This run will generate roughly 5 Mb of data
+Will try to add 31 NA ions and 37 CL ions.
+Select a continuous group of solvent molecules
+Selected 13: 'SOL'
+
+Processing topology
+Replacing 68 solute molecules in topology file (topol.top)  by 31 NA and 37 CL ions.
+Analysing residue names:
+There are:   198    Protein residues
+There are: 16173      Water residues
+There are:    68        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x72, spacing 0.112 0.112 0.112
+This run will generate roughly 5 Mb of data
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   198    Protein residues
+There are: 16173      Water residues
+There are:    68        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 310 K
+Calculated rlist for 1x1 atom pair-list as 1.210 nm, buffer size 0.010 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.200 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 52x52x52, spacing 0.155 0.155 0.155
+This run will generate roughly 9 Mb of data
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   198    Protein residues
+There are: 16173      Water residues
+There are:    68        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 310 K
+Calculated rlist for 1x1 atom pair-list as 1.210 nm, buffer size 0.010 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.200 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 52x52x52, spacing 0.155 0.155 0.155
+This run will generate roughly 9 Mb of data
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   198    Protein residues
+There are: 16173      Water residues
+There are:    68        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 310 K
+Calculated rlist for 1x1 atom pair-list as 1.500 nm, buffer size 0.100 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.425 nm, buffer size 0.025 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x72, spacing 0.111 0.111 0.111
+This run will generate roughly 12 Mb of data
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   198    Protein residues
+There are: 16173      Water residues
+There are:    68        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 310 K
+Calculated rlist for 1x1 atom pair-list as 1.500 nm, buffer size 0.100 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.425 nm, buffer size 0.025 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x72, spacing 0.111 0.111 0.111
+Select group for centering
+Selected 1: 'Protein'
+Select group for output
+Selected 0: 'System'
+Selected 1: 'Protein'
+Selected 1: 'Protein'
+Selected 1: 'Protein'
+Read 1 sets of 10001 points, dt = 2
+
+                                      std. dev.    relative deviation of
+                       standard       ---------   cumulants from those of
+set      average       deviation      sqrt(n-1)   a Gaussian distribition
+                                                      cum. 3   cum. 4
+SS1   1.632464e-01   1.094057e-02   1.094057e-04      -0.186    0.397
+
+Set   1:  err.est. 0.0024529  a 0.41299  tau1 14.7795  tau2 846.002
+Read 4 sets of 10001 points, dt = 2
+
+                                      std. dev.    relative deviation of
+                       standard       ---------   cumulants from those of
+set      average       deviation      sqrt(n-1)   a Gaussian distribition
+                                                      cum. 3   cum. 4
+SS1   1.769031e+00   9.521849e-03   9.521849e-05       0.306    0.209
+SS2   1.466409e+00   9.428585e-02   9.428585e-04      -0.499   -0.042
+SS3   1.442763e+00   9.825896e-02   9.825897e-04      -0.407   -0.193
+SS4   1.414430e+00   8.970184e-02   8.970184e-04      -0.035   -0.465
+
+Set   1:  err.est. 0.00388017  a 0.860879  tau1 90.9008  tau2 11374.9
+Warning: tau2 is longer than the length of the data (20000)
+         the statistics might be bad
+invalid fit:  e.e. 0.0511816  a 1  tau1 2946.99  tau2 31080.8
+Will fix tau2 at the total time: 20000
+Set   2:  err.est. 0.0511816  a 1  tau1 2946.99  tau2 19615
+Set   3:  err.est. 0.0765266  a 0.790641  tau1 6066.2  tau2 6066.66
+Set   4:  err.est. 0.0441688  a 1  tau1 2424.78  tau2 2425.47
+
+Choose a group for the least squares fit
+Selected 1: 'Protein'
+
+Choose a group for the covariance analysis
+Selected 1: 'Protein'
+Set the x-size of the box to 0.128
+Set the y-size of the box to 0.128
+
+Select the index group that was used for the least squares fit in g_covar
+Selected 1: 'Protein'
+
+Select an index group of 3134 elements that corresponds to the eigenvectors
+Selected 1: 'Protein'
+
+
+Select the index group that was used for the least squares fit in g_covar
+Selected 1: 'Protein'
+
+Select an index group of 3134 elements that corresponds to the eigenvectors
+Selected 1: 'Protein'
+
+
+Statistics over 1268 steps [ 0.0000 through 1267.0000 ps ], 1 data sets
+All statistics are over 1004 points (frames)
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Potential                   -865503      18000    51513.8    -117966  (kJ/mol)
+
+Statistics over 10001 steps [ 0.0000 through 20.0000 ps ], 1 data sets
+All statistics are over 201 points (frames)
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Temperature                 308.953          1    7.95421    6.14809  (K)
+
+Statistics over 10001 steps [ 0.0000 through 20.0000 ps ], 1 data sets
+All statistics are over 201 points (frames)
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Pressure                   -16.0924         14     105.27    76.7325  (bar)
+
+Statistics over 10001 steps [ 0.0000 through 20.0000 ps ], 1 data sets
+All statistics are over 201 points (frames)
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Density                     1010.61       0.48    1.28405     1.4156  (kg/m^3)
+renamed 'npt.cpt' -> '_CPT/npt.cpt'
+renamed 'npt_prev.cpt' -> '_CPT/npt_prev.cpt'
+renamed 'nvt.cpt' -> '_CPT/nvt.cpt'
+renamed 'nvt_prev.cpt' -> '_CPT/nvt_prev.cpt'
+renamed 'pre.cpt' -> '_CPT/pre.cpt'
+renamed 'pre_prev.cpt' -> '_CPT/pre_prev.cpt'
+renamed 'prod.cpt' -> '_CPT/prod.cpt'
+renamed 'prod_prev.cpt' -> '_CPT/prod_prev.cpt'
+renamed 'em.edr' -> '_EDR/em.edr'
+renamed 'npt.edr' -> '_EDR/npt.edr'
+renamed 'nvt.edr' -> '_EDR/nvt.edr'
+renamed 'pre.edr' -> '_EDR/pre.edr'
+renamed 'prod.edr' -> '_EDR/prod.edr'
+renamed '5yok.gro' -> '_GRO/5yok.gro'
+renamed '5yok_clean.gro' -> '_GRO/5yok_clean.gro'
+renamed '5yok_cube.gro' -> '_GRO/5yok_cube.gro'
+renamed '5yok_ready.gro' -> '_GRO/5yok_ready.gro'
+renamed '5yok_solv.gro' -> '_GRO/5yok_solv.gro'
+renamed 'complex.gro' -> '_GRO/complex.gro'
+renamed 'em.gro' -> '_GRO/em.gro'
+renamed 'npt.gro' -> '_GRO/npt.gro'
+renamed 'nvt.gro' -> '_GRO/nvt.gro'
+renamed 'pre.gro' -> '_GRO/pre.gro'
+renamed 'prod.gro' -> '_GRO/prod.gro'
+renamed 'solv_ions.gro' -> '_GRO/solv_ions.gro'
+renamed 'covar.log' -> '_LOG/covar.log'
+renamed 'em.log' -> '_LOG/em.log'
+renamed 'npt.log' -> '_LOG/npt.log'
+renamed 'nvt.log' -> '_LOG/nvt.log'
+renamed 'pre.log' -> '_LOG/pre.log'
+renamed 'prod.log' -> '_LOG/prod.log'
+renamed 'em.tpr' -> '_TPR/em.tpr'
+renamed 'ions.tpr' -> '_TPR/ions.tpr'
+renamed 'npt.tpr' -> '_TPR/npt.tpr'
+renamed 'nvt.tpr' -> '_TPR/nvt.tpr'
+renamed 'pre.tpr' -> '_TPR/pre.tpr'
+renamed 'prod.tpr' -> '_TPR/prod.tpr'
+renamed 'eigenvec.trr' -> '_TRR/eigenvec.trr'
+renamed 'em.trr' -> '_TRR/em.trr'
+renamed 'npt.trr' -> '_TRR/npt.trr'
+renamed 'nvt.trr' -> '_TRR/nvt.trr'
+renamed 'pre.trr' -> '_TRR/pre.trr'
+renamed 'prod.trr' -> '_TRR/prod.trr'
+renamed 'npt.xtc' -> '_XTC/npt.xtc'
+renamed 'nvt.xtc' -> '_XTC/nvt.xtc'
+renamed 'pre.xtc' -> '_XTC/pre.xtc'
+renamed 'pre_center.xtc' -> '_XTC/pre_center.xtc'
+renamed 'prod.xtc' -> '_XTC/prod.xtc'
+renamed 'prod_center.xtc' -> '_XTC/prod_center.xtc'
+renamed 'bse.xvg' -> '_XVG/bse.xvg'
+renamed 'bse_rgyr.xvg' -> '_XVG/bse_rgyr.xvg'
+renamed 'bse_rmsd.xvg' -> '_XVG/bse_rmsd.xvg'
+renamed 'dens.xvg' -> '_XVG/dens.xvg'
+renamed 'eigcomp.xvg' -> '_XVG/eigcomp.xvg'
+renamed 'eigcomp1_10.xvg' -> '_XVG/eigcomp1_10.xvg'
+renamed 'eigenval.xvg' -> '_XVG/eigenval.xvg'
+renamed 'eigproj1_10.xvg' -> '_XVG/eigproj1_10.xvg'
+renamed 'epot.xvg' -> '_XVG/epot.xvg'
+renamed 'firstlastproj.xvg' -> '_XVG/firstlastproj.xvg'
+renamed 'gyrate.xvg' -> '_XVG/gyrate.xvg'
+renamed 'pres.xvg' -> '_XVG/pres.xvg'
+renamed 'proj.xvg' -> '_XVG/proj.xvg'
+renamed 'proj12.xvg' -> '_XVG/proj12.xvg'
+renamed 'proj1vs2.xvg' -> '_XVG/proj1vs2.xvg'
+renamed 'rgyr.xvg' -> '_XVG/rgyr.xvg'
+renamed 'rmsd.xvg' -> '_XVG/rmsd.xvg'
+renamed 'temp.xvg' -> '_XVG/temp.xvg'
+renamed '#5yok_clean.gro.1#' -> '_trash/#5yok_clean.gro.1#'
+renamed '#5yok_clean.gro.2#' -> '_trash/#5yok_clean.gro.2#'
+renamed '#5yok_cube.gro.1#' -> '_trash/#5yok_cube.gro.1#'
+renamed '#5yok_ready.gro.1#' -> '_trash/#5yok_ready.gro.1#'
+renamed '#5yok_solv.gro.1#' -> '_trash/#5yok_solv.gro.1#'
+renamed '#average.pdb.1#' -> '_trash/#average.pdb.1#'
+renamed '#bse_rgyr.xvg.1#' -> '_trash/#bse_rgyr.xvg.1#'
+renamed '#covar.log.1#' -> '_trash/#covar.log.1#'
+renamed '#covara.eps.1#' -> '_trash/#covara.eps.1#'
+renamed '#covara.xpm.1#' -> '_trash/#covara.xpm.1#'
+renamed '#eigenval.xvg.1#' -> '_trash/#eigenval.xvg.1#'
+renamed '#eigenvec.trr.1#' -> '_trash/#eigenvec.trr.1#'
+renamed '#em.edr.1#' -> '_trash/#em.edr.1#'
+renamed '#em.gro.1#' -> '_trash/#em.gro.1#'
+renamed '#em.log.1#' -> '_trash/#em.log.1#'
+renamed '#em.tpr.1#' -> '_trash/#em.tpr.1#'
+renamed '#em.trr.1#' -> '_trash/#em.trr.1#'
+renamed '#extreme.pdb.1#' -> '_trash/#extreme.pdb.1#'
+renamed '#ions.tpr.1#' -> '_trash/#ions.tpr.1#'
+renamed '#mdout.mdp.1#' -> '_trash/#mdout.mdp.1#'
+renamed '#mdout.mdp.2#' -> '_trash/#mdout.mdp.2#'
+renamed '#mdout.mdp.3#' -> '_trash/#mdout.mdp.3#'
+renamed '#mdout.mdp.4#' -> '_trash/#mdout.mdp.4#'
+renamed '#mdout.mdp.5#' -> '_trash/#mdout.mdp.5#'
+renamed '#mdout.mdp.6#' -> '_trash/#mdout.mdp.6#'
+renamed '#npt.edr.1#' -> '_trash/#npt.edr.1#'
+renamed '#npt.gro.1#' -> '_trash/#npt.gro.1#'
+renamed '#npt.log.1#' -> '_trash/#npt.log.1#'
+renamed '#npt.tpr.1#' -> '_trash/#npt.tpr.1#'
+renamed '#npt.trr.1#' -> '_trash/#npt.trr.1#'
+renamed '#npt.xtc.1#' -> '_trash/#npt.xtc.1#'
+renamed '#nvt.edr.1#' -> '_trash/#nvt.edr.1#'
+renamed '#nvt.gro.1#' -> '_trash/#nvt.gro.1#'
+renamed '#nvt.log.1#' -> '_trash/#nvt.log.1#'
+renamed '#nvt.tpr.1#' -> '_trash/#nvt.tpr.1#'
+renamed '#nvt.trr.1#' -> '_trash/#nvt.trr.1#'
+renamed '#nvt.xtc.1#' -> '_trash/#nvt.xtc.1#'
+renamed '#posre_Protein_chain_A.itp.1#' -> '_trash/#posre_Protein_chain_A.itp.1#'
+renamed '#posre_Protein_chain_A.itp.2#' -> '_trash/#posre_Protein_chain_A.itp.2#'
+renamed '#posre_Protein_chain_B.itp.1#' -> '_trash/#posre_Protein_chain_B.itp.1#'
+renamed '#posre_Protein_chain_B.itp.2#' -> '_trash/#posre_Protein_chain_B.itp.2#'
+renamed '#pre.edr.1#' -> '_trash/#pre.edr.1#'
+renamed '#pre.gro.1#' -> '_trash/#pre.gro.1#'
+renamed '#pre.log.1#' -> '_trash/#pre.log.1#'
+renamed '#pre.tpr.1#' -> '_trash/#pre.tpr.1#'
+renamed '#pre.trr.1#' -> '_trash/#pre.trr.1#'
+renamed '#pre.xtc.1#' -> '_trash/#pre.xtc.1#'
+renamed '#prod.edr.1#' -> '_trash/#prod.edr.1#'
+renamed '#prod.gro.1#' -> '_trash/#prod.gro.1#'
+renamed '#prod.log.1#' -> '_trash/#prod.log.1#'
+renamed '#prod.tpr.1#' -> '_trash/#prod.tpr.1#'
+renamed '#prod.trr.1#' -> '_trash/#prod.trr.1#'
+renamed '#prod.xtc.1#' -> '_trash/#prod.xtc.1#'
+renamed '#prod_center.xtc.1#' -> '_trash/#prod_center.xtc.1#'
+renamed '#rgyr.xvg.1#' -> '_trash/#rgyr.xvg.1#'
+renamed '#rmsd.xvg.1#' -> '_trash/#rmsd.xvg.1#'
+renamed '#temp.topGw1ir4.1#' -> '_trash/#temp.topGw1ir4.1#'
+renamed '#temp.topgfqS5b.1#' -> '_trash/#temp.topgfqS5b.1#'
+renamed '#topol.top.1#' -> '_trash/#topol.top.1#'
+renamed '#topol.top.2#' -> '_trash/#topol.top.2#'
+renamed '#topol.top.3#' -> '_trash/#topol.top.3#'
+renamed '#topol.top.4#' -> '_trash/#topol.top.4#'
+renamed '#topol_Protein_chain_A.itp.1#' -> '_trash/#topol_Protein_chain_A.itp.1#'
+renamed '#topol_Protein_chain_A.itp.2#' -> '_trash/#topol_Protein_chain_A.itp.2#'
+renamed '#topol_Protein_chain_B.itp.1#' -> '_trash/#topol_Protein_chain_B.itp.1#'
+renamed '#topol_Protein_chain_B.itp.2#' -> '_trash/#topol_Protein_chain_B.itp.2#'
