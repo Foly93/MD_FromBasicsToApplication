@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0209
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6026
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4316
+HEADER 5  - Mean B-factor of pocket residues  : 0.5861
+HEADER 6  - Hydrophobicity Score              : 66.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 97.4951
+HEADER 10  -Pocket volume (convex hull)       : 1.9757
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   2982  OG1 THR B 375      32.518  24.414  74.263  0.61  2.14           O 0
+ATOM   3197   CE MET B 403      34.892  25.137  78.976  0.00  0.00           C 0
+ATOM   2930   CB ALA B 368      34.900  29.576  74.329  0.00  0.00           C 0
+ATOM   2946    O LEU B 370      29.633  26.964  75.428  0.36  4.29           O 0
+ATOM   2981   CB THR B 375      33.101  23.624  75.291  0.00  0.00           C 0
+ATOM   3201   CA MET B 404      31.645  31.258  79.931  0.00  0.00           C 0
+ATOM   3200    N MET B 404      32.299  30.296  80.768  0.00  0.00           N 0
+ATOM   3203   CG MET B 404      29.473  29.943  79.831  0.00  0.00           C 0
+ATOM   3194   CB MET B 403      33.917  27.521  80.743  0.00  0.00           C 0
+ATOM   3199    O MET B 403      34.399  30.472  79.974  0.70  2.14           O 0
+ATOM   2983  CG2 THR B 375      34.630  23.778  75.249  0.00  0.00           C 0
+ATOM   2958  CD1 LEU B 372      30.723  25.802  80.534  0.00  0.00           C 0
+ATOM   2932    O ALA B 368      32.700  30.902  74.722  0.59  4.29           O 0
+ATOM   3198    C MET B 403      33.582  29.925  80.712  0.00  0.00           C 0
+TER
+END

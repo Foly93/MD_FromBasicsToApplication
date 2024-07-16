@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0830
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9931
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6059
+HEADER 5  - Mean B-factor of pocket residues  : 0.8074
+HEADER 6  - Hydrophobicity Score              : -4.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 298.2409
+HEADER 10  -Pocket volume (convex hull)       : 8.8463
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM   2036   CG GLN A 256     -11.403  20.693  60.089  0.00  0.00           C 0
+ATOM   2037   CD GLN A 256     -12.744  21.420  60.133  0.00  0.00           C 0
+ATOM   2045    O GLY A 257      -7.933  24.114  57.260  0.73  1.07           O 0
+ATOM   2039  NE2 GLN A 256     -13.691  21.012  59.246  0.00  0.00           N 0
+ATOM   2043   CA GLY A 257      -7.360  21.825  57.459  0.00  0.00           C 0
+ATOM   2038  OE1 GLN A 256     -12.950  22.325  60.942  0.40  2.14           O 0
+ATOM   2105   NZ LYS A 264     -11.488  24.587  61.190  0.79  3.28           N 0
+ATOM   2093   CG LYS A 263     -11.602  27.839  58.274  0.00  0.00           C 0
+ATOM   2041    O GLN A 256      -8.349  19.764  58.895  0.26  4.29           O 0
+ATOM   2245   CB ALA A 282     -11.202  16.163  60.033  0.00  0.00           C 0
+ATOM   2094   CD LYS A 263     -12.858  28.362  57.565  0.00  0.00           C 0
+ATOM   2223  NH2 ARG A 279     -16.649  25.919  62.317  0.00  0.00           N 0
+ATOM   2056   CA SER A 259      -9.601  25.609  53.668  0.00  0.00           C 0
+ATOM   2044    C GLY A 257      -7.248  23.180  56.849  0.00  0.00           C 0
+ATOM   2055    N SER A 259      -8.487  25.504  54.564  0.00  0.00           N 0
+ATOM   2042    N GLY A 257      -7.952  21.978  58.756  0.00  0.00           N 0
+ATOM   2057   CB SER A 259     -10.830  26.309  54.275  0.00  0.00           C 0
+TER
+END

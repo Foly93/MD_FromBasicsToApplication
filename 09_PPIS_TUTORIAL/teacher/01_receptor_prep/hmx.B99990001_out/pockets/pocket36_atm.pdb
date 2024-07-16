@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.1229
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0534
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5578
+HEADER 5  - Mean B-factor of pocket residues  : 0.4211
+HEADER 6  - Hydrophobicity Score              : -6.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.4485
+HEADER 10  -Pocket volume (convex hull)       : 4.5650
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   2902   OG SER B 364      37.425  35.593  73.259  0.58  3.21           O 0
+ATOM   3043   OG SER B 383      41.675  35.717  73.181  0.23  8.57           O 0
+ATOM   2891    O LYS B 362      39.315  40.102  69.263  0.58  5.36           O 0
+ATOM   3070  CG2 THR B 386      39.717  38.036  77.651  0.00  0.00           C 0
+ATOM   2896  CG2 THR B 363      35.155  38.951  71.119  0.00  0.00           C 0
+ATOM   2899    N SER B 364      37.108  36.662  70.615  0.57  2.19           N 0
+ATOM   3270   CG GLU B 413      35.590  43.283  72.049  0.00  0.00           C 0
+ATOM   2895  OG1 THR B 363      35.687  40.786  69.642  0.82  1.07           O 0
+ATOM   2893   CA THR B 363      36.979  38.774  69.465  0.00  0.00           C 0
+ATOM   3272  OE1 GLU B 413      36.895  44.594  73.559  0.17  4.29           O 0
+ATOM   3269   CB GLU B 413      34.716  42.719  73.174  0.00  0.00           C 0
+ATOM   3238   OG SER B 409      36.076  40.083  78.327  0.21  7.50           O 0
+ATOM   3242   CA SER B 410      34.026  38.931  74.429  0.00  0.00           C 0
+ATOM   3243   CB SER B 410      34.384  37.638  73.687  0.00  0.00           C 0
+ATOM   3240    O SER B 409      33.670  40.908  76.328  0.12  5.36           O 0
+ATOM   3241    N SER B 410      33.929  38.721  75.840  0.00  0.00           N 0
+TER
+END

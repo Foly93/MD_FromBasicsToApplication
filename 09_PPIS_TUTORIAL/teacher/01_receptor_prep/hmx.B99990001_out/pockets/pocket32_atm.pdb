@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0898
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.1182
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5733
+HEADER 5  - Mean B-factor of pocket residues  : 0.8859
+HEADER 6  - Hydrophobicity Score              : 21.4444
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 372.9368
+HEADER 10  -Pocket volume (convex hull)       : 24.5459
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   2197  CG1 VAL A 276      -6.823  25.115  68.991  0.00  0.00           C 0
+ATOM   2110   CB ASP A 265      -6.515  31.961  64.417  0.00  0.00           C 0
+ATOM   2204  CG1 ILE A 277     -10.877  27.331  71.494  0.00  0.00           C 0
+ATOM   2113  OD2 ASP A 265      -8.076  33.466  65.438  0.00  0.00           O 0
+ATOM   2111   CG ASP A 265      -7.712  32.902  64.370  0.00  0.00           C 0
+ATOM   2108    N ASP A 265      -7.363  30.417  62.685  0.00  0.00           N 0
+ATOM   2116    N ARG A 266      -4.794  29.503  63.424  0.00  0.00           N 0
+ATOM   2131  CG2 VAL A 267      -3.230  29.851  67.861  0.00  0.00           C 0
+ATOM   2205  CG2 ILE A 277     -12.697  25.677  70.726  0.00  0.00           C 0
+ATOM   2203   CB ILE A 277     -11.227  26.125  70.609  0.00  0.00           C 0
+ATOM   2219   CD ARG A 279     -13.608  24.932  64.243  0.00  0.00           C 0
+ATOM   2222  NH1 ARG A 279     -15.371  27.106  63.914  0.62  7.66           N 0
+ATOM   2103   CD LYS A 264      -9.603  25.357  62.568  0.00  0.00           C 0
+ATOM   2208    O ILE A 277     -10.313  23.740  68.910  0.58  1.07           O 0
+ATOM   2240  ND2 ASN A 281      -9.803  21.805  65.803  0.42  2.19           N 0
+ATOM   2217   CB ARG A 279     -14.687  24.141  66.421  0.00  0.00           C 0
+ATOM   2218   CG ARG A 279     -13.738  23.804  65.273  0.00  0.00           C 0
+ATOM   2201    N ILE A 277      -8.961  25.176  70.795  0.00  0.00           N 0
+ATOM   2102   CG LYS A 264      -9.778  26.838  62.228  0.00  0.00           C 0
+ATOM   2101   CB LYS A 264      -8.473  27.600  61.989  0.00  0.00           C 0
+ATOM   2112  OD1 ASP A 265      -8.276  33.077  63.258  0.33  5.36           O 0
+ATOM   2029  CG1 VAL A 255      -6.472  25.263  63.056  0.00  0.00           C 0
+ATOM   2104   CE LYS A 264     -10.912  24.570  62.554  0.00  0.00           C 0
+TER
+END

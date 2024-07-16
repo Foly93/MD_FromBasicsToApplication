@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.0936
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7260
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4276
+HEADER 5  - Mean B-factor of pocket residues  : 0.6240
+HEADER 6  - Hydrophobicity Score              : 19.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 143.1284
+HEADER 10  -Pocket volume (convex hull)       : 1.4097
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   3334  CG2 VAL B 420      32.649  52.170  68.488  0.00  0.00           C 0
+ATOM   3300    O LYS B 416      31.471  49.266  69.938  0.00  0.00           O 0
+ATOM   3660  CG2 THR B 460      37.957  48.664  72.665  0.00  0.00           C 0
+ATOM   3294   CB LYS B 416      32.659  47.552  72.428  0.00  0.00           C 0
+ATOM   3669    O VAL B 461      38.770  49.769  69.651  0.57  3.21           O 0
+ATOM   3671   CA PRO B 462      38.194  51.766  67.847  0.00  0.00           C 0
+ATOM   3662    O THR B 460      39.399  51.661  72.955  0.70  6.43           O 0
+ATOM   3676    O PRO B 462      37.622  50.012  66.381  0.00  0.00           O 0
+ATOM   3273  OE2 GLU B 413      35.973  45.629  71.817  0.62  5.36           O 0
+ATOM   3299    C LYS B 416      31.571  48.099  70.323  0.00  0.00           C 0
+ATOM   3302   CA MET B 417      32.337  47.351  68.126  0.00  0.00           C 0
+ATOM   3304   CG MET B 417      34.281  45.656  67.840  0.00  0.00           C 0
+ATOM   3301    N MET B 417      31.990  47.106  69.508  0.00  0.00           N 0
+TER
+END

@@ -1,0 +1,19 @@
+source leaprc.gaff2
+source leaprc.water.opc
+source leaprc.protein.ff19SB
+
+loadamberparams LID_gaff2.frcmod
+loadoff LID_gaff2.lib 
+
+m= loadpdb RL_ID.pdb
+
+saveamberparm m RL_ID.prmtop RL_ID.inpcrd
+charge m
+quit
+
+savemol2 m RL_ID.mol2 0
+solvateBOX m OPCBOX 12 2
+savepdb m RL_ID.pdb
+addionsRand m Na+ 124 Cl- 124  # 10^(-27) * 6*10^(23) * 0.15 =  0.00009 ion/L for 0.15M , [111.6 108.6 113.6] needs 124 ions, check your boxsize in the pdb file
+addIonsRand m Na+ 0 
+addIonsRand m Cl- 0

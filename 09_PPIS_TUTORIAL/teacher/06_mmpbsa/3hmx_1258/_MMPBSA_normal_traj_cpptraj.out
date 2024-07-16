@@ -1,0 +1,194 @@
+
+CPPTRAJ: Trajectory Analysis. V6.18.1 (AmberTools)
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 07/05/23 21:57:14
+| Available memory: 3.661 GB
+
+	Reading 'BL.prmtop' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+INPUT: Reading input from 'STDIN'
+  [trajin BL_3.nc 1 94 1]
+	Reading 'BL_3.nc' as Amber NetCDF
+Warning: Trajectory box type is 'Cubic' but topology box type is 'None'.
+Warning: Setting topology box information from trajectory.
+  [noprogress]
+	Progress bar will not be used during Run.
+  [autoimage]
+    AUTOIMAGE: To box center based on center of mass, anchor is first molecule.
+  [strip :K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+    STRIP: Stripping atoms in mask [:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+  [rmsd !(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL) mass first]
+    RMSD: (!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)), reference is first frame (!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [outtraj _MMPBSA_complex.pdb onlyframes 1 nobox pdb]
+	Saving frames 1
+	Writing '_MMPBSA_complex.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [outtraj _MMPBSA_dummycomplex.inpcrd onlyframes 1 nobox restart]
+	Saving frames 1
+	Writing '_MMPBSA_dummycomplex.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [outtraj _MMPBSA_complex.mdcrd.0 onlyframes 1-94 nobox]
+Warning: Format not specified and extension '.0' not recognized. Defaulting to Amber Trajectory.
+	Saving frames 1-94
+	Writing '_MMPBSA_complex.mdcrd.0' as Amber Trajectory
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [strip :198]
+    STRIP: Stripping atoms in mask [:198]
+  [outtraj _MMPBSA_receptor.pdb onlyframes 1 nobox pdb]
+	Saving frames 1
+	Writing '_MMPBSA_receptor.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [outtraj _MMPBSA_dummyreceptor.inpcrd onlyframes 1 nobox restart]
+	Saving frames 1
+	Writing '_MMPBSA_dummyreceptor.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [outtraj _MMPBSA_receptor.mdcrd.0 onlyframes 1-94 nobox]
+Warning: Format not specified and extension '.0' not recognized. Defaulting to Amber Trajectory.
+	Saving frames 1-94
+	Writing '_MMPBSA_receptor.mdcrd.0' as Amber Trajectory
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [unstrip]
+  [strip :K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+    STRIP: Stripping atoms in mask [:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+  [rmsd !(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL) mass first]
+    RMSD: (!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)), reference is first frame (!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [strip :1-197]
+    STRIP: Stripping atoms in mask [:1-197]
+  [outtraj _MMPBSA_ligand.pdb onlyframes 1 nobox pdb]
+	Saving frames 1
+	Writing '_MMPBSA_ligand.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [outtraj _MMPBSA_dummyligand.inpcrd onlyframes 1 nobox restart]
+	Saving frames 1
+	Writing '_MMPBSA_dummyligand.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [outtraj _MMPBSA_ligand.mdcrd.0 onlyframes 1-94 nobox]
+Warning: Format not specified and extension '.0' not recognized. Defaulting to Amber Trajectory.
+	Saving frames 1-94
+	Writing '_MMPBSA_ligand.mdcrd.0' as Amber Trajectory
+    OUTTRAJ: Writing frames associated with topology 'BL.prmtop'
+  [unstrip]
+  [strip :K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+    STRIP: Stripping atoms in mask [:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+  [rmsd !(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL) mass first]
+    RMSD: (!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)), reference is first frame (!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: BL.prmtop, 3196 atoms, 198 res, box: Cubic, 2 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'BL_3.nc' is a NetCDF (NetCDF3) AMBER trajectory with coordinates, time, box, Parm BL.prmtop (Cubic box) (reading 94 of 94)
+  Coordinate processing will occur on 94 frames.
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'BL.prmtop' (20 actions):
+  0: [autoimage]
+	Using first molecule as anchor.
+	1 molecules are fixed to anchor: 2
+	0 molecules are mobile.
+  1: [strip :K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+	Stripping 0 atoms.
+Warning: No atoms to strip. Skipping.
+Warning: Setup incomplete for [strip]: Skipping
+  2: [rmsd !(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL) mass first]
+	Target mask: [!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)](3196)
+	Reference topology: BL.prmtop
+	Reference mask: [!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)](3196)
+  3: [outtraj _MMPBSA_complex.pdb onlyframes 1 nobox pdb]
+        '_MMPBSA_complex.pdb' is a PDB file, Parm BL.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  4: [outtraj _MMPBSA_dummycomplex.inpcrd onlyframes 1 nobox restart]
+        '_MMPBSA_dummycomplex.inpcrd' is an AMBER restart file, Parm BL.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  5: [outtraj _MMPBSA_complex.mdcrd.0 onlyframes 1-94 nobox]
+        '_MMPBSA_complex.mdcrd.0' is an AMBER trajectory, Parm BL.prmtop no box info,: Writing frames 1-94
+	Has coordinates, time
+  6: [strip :198]
+	Stripping 35 atoms.
+	Stripped topology: 3161 atoms, 197 res, box: Cubic, 1 mol
+  7: [outtraj _MMPBSA_receptor.pdb onlyframes 1 nobox pdb]
+        '_MMPBSA_receptor.pdb' is a PDB file, Parm BL.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  8: [outtraj _MMPBSA_dummyreceptor.inpcrd onlyframes 1 nobox restart]
+        '_MMPBSA_dummyreceptor.inpcrd' is an AMBER restart file, Parm BL.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  9: [outtraj _MMPBSA_receptor.mdcrd.0 onlyframes 1-94 nobox]
+        '_MMPBSA_receptor.mdcrd.0' is an AMBER trajectory, Parm BL.prmtop no box info,: Writing frames 1-94
+	Has coordinates, time
+  10: [unstrip]
+  11: [strip :K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+	Stripping 0 atoms.
+Warning: No atoms to strip. Skipping.
+Warning: Setup incomplete for [strip]: Skipping
+  12: [rmsd !(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL) mass first]
+	Target mask: [!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)](3196)
+	Reference topology: BL.prmtop
+	Reference mask: [!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)](3196)
+  13: [strip :1-197]
+	Stripping 3161 atoms.
+	Stripped topology: 35 atoms, 1 res, box: Cubic, 1 mol
+  14: [outtraj _MMPBSA_ligand.pdb onlyframes 1 nobox pdb]
+        '_MMPBSA_ligand.pdb' is a PDB file, Parm BL.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  15: [outtraj _MMPBSA_dummyligand.inpcrd onlyframes 1 nobox restart]
+        '_MMPBSA_dummyligand.inpcrd' is an AMBER restart file, Parm BL.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  16: [outtraj _MMPBSA_ligand.mdcrd.0 onlyframes 1-94 nobox]
+        '_MMPBSA_ligand.mdcrd.0' is an AMBER trajectory, Parm BL.prmtop no box info,: Writing frames 1-94
+	Has coordinates, time
+  17: [unstrip]
+  18: [strip :K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL]
+	Stripping 0 atoms.
+Warning: No atoms to strip. Skipping.
+Warning: Setup incomplete for [strip]: Skipping
+  19: [rmsd !(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL) mass first]
+	Target mask: [!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)](3196)
+	Reference topology: BL.prmtop
+	Reference mask: [!(:K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL)](3196)
+----- BL_3.nc (1-94, 1) -----
+
+Read 94 frames and processed 94 frames.
+TIME: Avg. throughput= 55.7622 frames / second.
+
+ACTION OUTPUT:
+    OUTTRAJ: '_MMPBSA_complex.pdb': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_dummycomplex.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_complex.mdcrd.0': Wrote 94 frames.
+    OUTTRAJ: '_MMPBSA_receptor.pdb': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_dummyreceptor.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_receptor.mdcrd.0': Wrote 94 frames.
+    OUTTRAJ: '_MMPBSA_ligand.pdb': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_dummyligand.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_MMPBSA_ligand.mdcrd.0': Wrote 94 frames.
+TIME: Analyses took 0.0000 seconds.
+
+DATASETS (3 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 94 (0.752 kB)
+	RMSD_00002 "RMSD_00002" (double, rms), size is 94 (0.752 kB)
+	RMSD_00003 "RMSD_00003" (double, rms), size is 94 (0.752 kB)
+    Total data set memory usage is at least 2.256 kB
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.00%)
+TIME:		Trajectory Process : 1.6857 s ( 95.11%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.0865 s (  0.05%)
+TIME:	Run Total 1.7723 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 2.6126 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+

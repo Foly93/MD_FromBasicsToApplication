@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.1467
+HEADER 1  - Drug Score                        : 0.0093
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5322
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3546
+HEADER 5  - Mean B-factor of pocket residues  : 0.5236
+HEADER 6  - Hydrophobicity Score              : 83.0000
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 104.3146
+HEADER 10  -Pocket volume (convex hull)       : 0.9562
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM     95  CG1 VAL A  11      40.792  19.855  26.291  0.00  0.00           C 0
+ATOM    635   CG LEU A  82      35.376  16.702  25.220  0.00  0.00           C 0
+ATOM    113  CD2 LEU A  13      35.954  21.064  25.201  0.00  0.00           C 0
+ATOM    112  CD1 LEU A  13      36.317  20.977  22.696  0.00  0.00           C 0
+ATOM    448  CG2 VAL A  57      41.540  18.086  22.945  0.00  0.00           C 0
+ATOM     94   CB VAL A  11      40.554  18.608  27.162  0.00  0.00           C 0
+ATOM    631    O LEU A  81      37.615  15.974  28.781  0.00  0.00           O 0
+ATOM    618   CB LEU A  80      40.143  12.444  26.893  0.00  0.00           C 0
+ATOM     96  CG2 VAL A  11      41.766  17.663  27.250  0.00  0.00           C 0
+ATOM    636  CD1 LEU A  82      35.613  15.203  25.450  0.00  0.00           C 0
+ATOM    447  CG1 VAL A  57      41.637  15.631  22.210  0.00  0.00           C 0
+ATOM    493   CA ALA A  63      37.327  11.913  23.479  0.00  0.00           C 0
+ATOM    450    O VAL A  57      40.099  19.556  21.131  0.00  0.00           O 0
+ATOM    446   CB VAL A  57      40.924  16.989  22.061  0.00  0.00           C 0
+ATOM    637  CD2 LEU A  82      34.611  16.985  23.916  0.00  0.00           C 0
+ATOM    492    N ALA A  63      37.325  12.358  22.113  0.64  1.09           N 0
+TER
+END

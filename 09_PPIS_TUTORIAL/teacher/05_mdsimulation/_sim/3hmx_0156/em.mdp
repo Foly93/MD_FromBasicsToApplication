@@ -1,0 +1,15 @@
+title = Energy Minimisation
+
+integrator  = steep     
+emtol       = 1000.0    
+emstep      = 0.01      
+nsteps      = 50000     
+
+nstlist         = 1         
+cutoff-scheme   = Verlet    
+ns_type         = grid      
+rlist           = 1.4       
+coulombtype     = PME       
+rcoulomb        = 1.4       
+rvdw            = 1.4       
+pbc             = xyz       

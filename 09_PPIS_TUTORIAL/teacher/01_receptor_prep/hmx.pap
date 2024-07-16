@@ -1,0 +1,39 @@
+ _aln.pos              10        20        30        40        50        60
+hmx_structure  IWELKKDVYVVELDWYPDAPGEMVVLTCDTPEEDGITWTLDQSSEVLGSGKTLTIQVKEFGDA 
+hmx            IWELKKDVYVVELDWYPDAPGEMVVLTCDTPEEDGITWTLDQSSEVLGSGKTLTIQVKEFGDA 
+ _consrvd      ***************************************************************
+
+ _aln.pos           70        80        90       100       110       120
+hmx_structure  GQYTCHKGGEVLSHSLLLLHKKEDGIWSTDILKDQKEPKNKTFLRCEAKNYSGRFTCWWLTTI 
+hmx            GQYTCHKGGEVLSHSLLLLHKKEDGIWSTDILKDQKEPKNKTFLRCEAKNYSGRFTCWWLTTI 
+ _consrvd      ***************************************************************
+
+ _aln.pos       130       140       150       160       170       180
+hmx_structure  STDLTFSVKSSRGSSDPQGVTCGAATLSAERVRGDNKEYEYSVECQEDSACPAAEESLPIEVM 
+hmx            STDLTFSVKSSRGSSDPQGVTCGAATLSAERVRGDNKEYEYSVECQEDSACPAAEESLPIEVM 
+ _consrvd      ***************************************************************
+
+ _aln.pos    190       200       210       220       230       240       250
+hmx_structure  VDAVHKLKYENYTSSFFIRDIIKPDPPKNLQLKPLKNSRQVEVSWEYPDTWSTPHSYFSLTFC 
+hmx            VDAVHKLKYENYTSSFFIRDIIKPDPPKNLQLKPLKNSRQVEVSWEYPDTWSTPHSYFSLTFC 
+ _consrvd      ***************************************************************
+
+ _aln.pos           260       270       280       290       300       310
+hmx_structure  VQVQ-------KDRVFTDKTSATVICR---SISVRAQDRYYSSSWSEWASVPC/-M------- 
+hmx            VQVQGKSKREKKDRVFTDKTSATVICRKNASISVRAQDRYYSSSWSEWASVPCS/RNLPVATP 
+ _consrvd      ****       ****************   ***********************
+
+ _aln.pos        320       330       340       350       360       370
+hmx_structure  ----FPCLHHSQNLLRAVSNMLQKARQTLEFYPCTS---DHEDITKDKTSTVEACLPLELTKN 
+hmx            DPGMFPCLHHSQNLLRAVSNMLQKARQTLEFYPCTSEEIDHEDITKDKTSTVEACLPLELTKN 
+ _consrvd          ********************************   ************************
+
+ _aln.pos     380       390       400       410       420       430       440
+hmx_structure  ESC----ETSFITNGSCLASRKTSFMMALCLSSIYEDLKMYQVEFKTMNAKLLMDPKRQIFLD 
+hmx            ESCLNSRETSFITNGSCLASRKTSFMMALCLSSIYEDLKMYQVEFKTMNAKLLMDPKRQIFLD 
+ _consrvd      ***    ********************************************************
+
+ _aln.pos            450       460       470       480       490       500
+hmx_structure  QNMLAVIDELMQALNFNSETVP---SLEEPDFYKTKIKLCILLHAFRIRAVTIDRVMSYLNAS 
+hmx            QNMLAVIDELMQALNFNSETVPQKSSLEEPDFYKTKIKLCILLHAFRIRAVTIDRVMSYLNAS 
+ _consrvd      **********************   **************************************

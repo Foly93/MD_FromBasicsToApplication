@@ -1,0 +1,65 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0396
+HEADER 1  - Drug Score                        : 0.0562
+HEADER 2  - Number of alpha spheres           :    66
+HEADER 3  - Mean alpha-sphere radius          : 3.8151
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4413
+HEADER 5  - Mean B-factor of pocket residues  : 0.5381
+HEADER 6  - Hydrophobicity Score              : 6.6429
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.3571
+HEADER 9  - Pocket volume (Monte Carlo)       : 726.5591
+HEADER 10  -Pocket volume (convex hull)       : 233.3190
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 26.2162
+HEADER 13 - Number of apolar alpha sphere     :    37
+HEADER 14 - Proportion of apolar alpha sphere : 0.5606
+ATOM   3776   CE LYS B 474      32.181  50.968  51.068  0.00  0.00           C 0
+ATOM   3733    N PRO B 470      33.549  55.874  54.314  0.00  0.00           N 0
+ATOM   3732    O GLU B 469      35.336  56.288  53.018  0.55  7.50           O 0
+ATOM   3734   CA PRO B 470      32.612  55.671  53.227  0.00  0.00           C 0
+ATOM   3736   CB PRO B 470      31.640  54.589  53.719  0.00  0.00           C 0
+ATOM   3735   CD PRO B 470      33.220  55.059  55.474  0.00  0.00           C 0
+ATOM   3737   CG PRO B 470      31.772  54.612  55.252  0.00  0.00           C 0
+ATOM   3731    C GLU B 469      34.805  56.191  54.122  0.00  0.00           C 0
+ATOM   3777   NZ LYS B 474      31.820  49.712  51.759  0.00  0.00           N 0
+ATOM   3723    O GLU B 468      36.527  54.060  56.572  0.73  3.21           O 0
+ATOM   3720  OE1 GLU B 468      39.431  50.848  53.042  0.00  0.00           O 0
+ATOM   3715    N GLU B 468      39.058  53.406  56.725  0.64  2.19           N 0
+ATOM   3709   CB LEU B 467      38.603  52.496  59.252  0.00  0.00           C 0
+ATOM   3809   CE LYS B 478      31.054  50.114  58.024  0.00  0.00           C 0
+ATOM   3370  CG2 THR B 424      30.016  54.544  61.740  0.00  0.00           C 0
+ATOM   3399   CE LYS B 428      30.359  60.025  58.288  0.00  0.00           C 0
+ATOM   3730  OE2 GLU B 469      34.441  57.166  58.926  0.60  8.57           O 0
+ATOM   3398   CD LYS B 428      28.978  59.386  58.456  0.00  0.00           C 0
+ATOM   3729  OE1 GLU B 469      33.729  58.920  57.760  0.00  0.00           O 0
+ATOM   3717   CB GLU B 468      38.697  53.477  54.259  0.00  0.00           C 0
+ATOM   3721  OE2 GLU B 468      39.977  52.282  51.431  0.00  0.00           O 0
+ATOM   3783  OG1 THR B 475      27.052  54.131  56.048  0.83  1.07           O 0
+ATOM   3374   CA MET B 425      26.449  55.049  60.306  0.00  0.00           C 0
+ATOM   3397   CG LYS B 428      28.201  59.286  57.146  0.00  0.00           C 0
+ATOM   3711  CD1 LEU B 467      36.345  53.519  59.781  0.00  0.00           C 0
+ATOM   3333  CG1 VAL B 420      32.603  53.540  66.295  0.00  0.00           C 0
+ATOM   3712  CD2 LEU B 467      38.491  54.748  60.433  0.00  0.00           C 0
+ATOM   3673   CB PRO B 462      38.324  53.084  67.089  0.00  0.00           C 0
+ATOM   3676    O PRO B 462      37.622  50.012  66.381  0.00  0.00           O 0
+ATOM   3808   CD LYS B 478      30.423  50.353  56.652  0.00  0.00           C 0
+ATOM   3810   NZ LYS B 478      31.673  48.770  58.061  0.68  7.66           N 0
+ATOM   3369  OG1 THR B 424      30.813  56.823  61.929  0.00  0.00           O 0
+ATOM   3368   CB THR B 424      30.136  55.792  62.634  0.00  0.00           C 0
+ATOM   3719   CD GLU B 468      39.809  51.983  52.644  0.00  0.00           C 0
+ATOM   3376   CG MET B 425      26.835  52.561  59.698  0.00  0.00           C 0
+ATOM   3343  OE2 GLU B 421      32.899  49.544  62.528  0.00  0.00           O 0
+ATOM   3332   CB VAL B 420      32.068  52.325  67.073  0.00  0.00           C 0
+ATOM   3372    O THR B 424      27.691  57.377  61.238  0.71  1.07           O 0
+ATOM   3342  OE1 GLU B 421      31.199  49.143  61.151  0.72  1.07           O 0
+ATOM   3308    O MET B 417      31.170  48.785  66.643  0.00  0.00           O 0
+ATOM   3303   CB MET B 417      32.890  46.106  67.401  0.00  0.00           C 0
+ATOM   3306   CE MET B 417      35.159  45.149  65.338  0.00  0.00           C 0
+ATOM   3302   CA MET B 417      32.337  47.351  68.126  0.00  0.00           C 0
+TER
+END

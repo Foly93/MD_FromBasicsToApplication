@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0584
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6153
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3827
+HEADER 5  - Mean B-factor of pocket residues  : 0.3048
+HEADER 6  - Hydrophobicity Score              : 83.4286
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 84.9949
+HEADER 10  -Pocket volume (convex hull)       : 0.5973
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    200   CB VAL A  24      46.445  16.599  24.609  0.00  0.00           C 0
+ATOM    215   CG LEU A  26      46.845  10.625  25.203  0.00  0.00           C 0
+ATOM    431  CG2 ILE A  55      45.218  13.627  20.936  0.00  0.00           C 0
+ATOM    201  CG1 VAL A  24      46.981  15.896  25.862  0.00  0.00           C 0
+ATOM    217  CD2 LEU A  26      46.525  11.085  26.633  0.00  0.00           C 0
+ATOM    619   CG LEU A  80      41.646  12.166  26.705  0.00  0.00           C 0
+ATOM    620  CD1 LEU A  80      42.482  12.870  27.784  0.00  0.00           C 0
+ATOM    216  CD1 LEU A  26      45.825   9.594  24.689  0.00  0.00           C 0
+ATOM    517  CE2 TYR A  66      42.079   9.911  22.520  0.00  0.00           C 0
+ATOM    447  CG1 VAL A  57      41.637  15.631  22.210  0.00  0.00           C 0
+ATOM    202  CG2 VAL A  24      45.572  17.830  24.915  0.00  0.00           C 0
+ATOM     96  CG2 VAL A  11      41.766  17.663  27.250  0.00  0.00           C 0
+TER
+END

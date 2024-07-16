@@ -1,0 +1,7 @@
+source leaprc.gaff2
+LIG = loadmol2 0156_gaff2.mol2
+loadamberparams 0156_gaff2.frcmod
+saveoff LIG 0156_gaff2.lib 
+savepdb LIG 0156.pdb
+saveamberparm LIG 0156.prmtop 0156.inpcrd
+quit

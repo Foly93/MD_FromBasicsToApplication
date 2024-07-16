@@ -1,0 +1,2 @@
+strip !(:307-503,504)
+trajout  3hmx_1306/BL_3.nc

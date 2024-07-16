@@ -1,0 +1,54 @@
+title = NVT Equilibration
+
+; Run parameters
+integrator	= md
+nsteps		= 10000
+dt		= 0.002
+
+; Output control
+nstxout			= 0
+nstxout-compressed	= 5000
+nstvout			= 5000
+nstenergy		= 50
+nstlog			= 500
+
+; Bond parameters
+continuation		= no
+constraint_algorithm	= lincs
+constraints		= h-bonds
+lincs_iter		= 1
+lincs_order		= 4
+
+; Nonbonded settings
+cutoff-scheme		= Verlet
+ns_type			= grid
+nstlist			= 5
+rlist			= 1.2
+rcoulomb		= 1.2
+rvdw			= 1.2
+
+; Electrostatics
+coulombtype	= PME
+pme_order	= 4
+fourierspacing	= 0.16
+
+; Temperature coupling is on
+tcoupl	= Berendsen
+tc-grps	= Protein   Non-Protein
+tau_t	= 0.1       0.1
+ref_t	= 310       310
+
+; Pressure coupling is off
+pcoupl	= no
+
+; Periodic boundary conditions
+pbc	= xyz
+
+; Dispersion correction
+DispCorr	= EnerPres
+
+; Velocity generation
+gen_vel		= yes
+gen_temp	= 310.00
+gen_seed	= -1
+

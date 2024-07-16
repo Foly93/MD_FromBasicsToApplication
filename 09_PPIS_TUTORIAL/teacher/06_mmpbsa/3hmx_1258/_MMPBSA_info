@@ -1,0 +1,155 @@
+# You can alter the variables below to change what info is printed out
+INPUT['debug_printlevel'] = 2
+INPUT['verbose'] = 1
+INPUT['csv_format'] = 1
+INPUT['dec_verbose'] = 0
+#
+# MODIFY NOTHING BELOW HERE, OR GET WHAT YOU DESERVE
+INPUT['endframe'] = 9999999
+INPUT['entropy'] = 0
+INPUT['full_traj'] = 0
+INPUT['interval'] = 1
+INPUT['keep_files'] = 2
+INPUT['ligand_mask'] = ':198'
+INPUT['netcdf'] = ''
+INPUT['receptor_mask'] = ':1-197'
+INPUT['search_path'] = 0
+INPUT['startframe'] = 1
+INPUT['strip_mask'] = ':K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL'
+INPUT['use_sander'] = 1
+INPUT['gbrun'] = True
+INPUT['ifqnt'] = 0
+INPUT['igb'] = 5
+INPUT['qm_theory'] = ''
+INPUT['qm_residues'] = ''
+INPUT['qmcharge_com'] = 0
+INPUT['qmcharge_lig'] = 0
+INPUT['qmcharge_rec'] = 0
+INPUT['qmcut'] = 9999.0
+INPUT['saltcon'] = 0.1
+INPUT['surfoff'] = 0.0
+INPUT['surften'] = 0.0072
+INPUT['molsurf'] = 0
+INPUT['msoffset'] = 0.0
+INPUT['probe'] = 1.4
+INPUT['b'] = 0.028
+INPUT['alpb'] = 1
+INPUT['epsin'] = 1.0
+INPUT['epsout'] = 78.5
+INPUT['istrng'] = 0.0
+INPUT['Rs'] = 0.52
+INPUT['space'] = 0.5
+INPUT['arcres'] = 0.2
+INPUT['rbornstat'] = 0
+INPUT['dgij'] = 0
+INPUT['radiopt'] = 1
+INPUT['chagb'] = 0
+INPUT['ROH'] = 0.586
+INPUT['tau'] = 1.47
+INPUT['pbrun'] = False
+INPUT['cavity_offset'] = -0.5692
+INPUT['cavity_surften'] = 0.0378
+INPUT['exdi'] = 80.0
+INPUT['emem'] = 1.0
+INPUT['memopt'] = 0
+INPUT['memoptzero'] = 0
+INPUT['sasopt'] = 0
+INPUT['solvopt'] = 2
+INPUT['mthick'] = 40.0
+INPUT['mctrdz'] = 0.0
+INPUT['maxarcdot'] = 1500
+INPUT['poretype'] = 1
+INPUT['npbverb'] = 0
+INPUT['nfocus'] = 2
+INPUT['bcopt'] = 5
+INPUT['eneopt'] = 2
+INPUT['frcopt'] = 0
+INPUT['cutfd'] = 5.0
+INPUT['cutnb'] = 0.0
+INPUT['ipb'] = 2
+INPUT['fillratio'] = 4.0
+INPUT['indi'] = 1.0
+INPUT['inp'] = 2
+INPUT['linit'] = 1000
+INPUT['prbrad'] = 1.4
+INPUT['sander_apbs'] = 0
+INPUT['scale'] = 0.5
+INPUT['alarun'] = False
+INPUT['mutant_only'] = 0
+INPUT['nmoderun'] = False
+INPUT['dielc'] = 1.0
+INPUT['drms'] = 0.001
+INPUT['maxcyc'] = 10000
+INPUT['nminterval'] = 1
+INPUT['nmendframe'] = 1000000
+INPUT['nmode_igb'] = 1
+INPUT['nmode_istrng'] = 0.0
+INPUT['nmstartframe'] = 1
+INPUT['decomprun'] = True
+INPUT['idecomp'] = 1
+INPUT['print_res'] = 'all'
+INPUT['rismrun'] = False
+INPUT['buffer'] = 14.0
+INPUT['closure'] = 'kh'
+INPUT['closureorder'] = 1
+INPUT['grdspc'] = 0.5
+INPUT['ng'] = '-1,-1,-1'
+INPUT['polardecomp'] = 0
+INPUT['rism_verbose'] = 0
+INPUT['solvbox'] = '-1,-1,-1'
+INPUT['solvcut'] = 14.0
+INPUT['thermo'] = 'std'
+INPUT['tolerance'] = 1e-05
+INPUT['gbnsr6run'] = False
+INPUT['gbsa'] = 2
+INPUT['rismrun_std'] = False
+INPUT['rismrun_gf'] = False
+INPUT['temp'] = 298.15
+FILES.clean = False
+FILES.complex_prmtop = 'BL.prmtop'
+FILES.infilehelp = False
+FILES.input_file = '../gb.in'
+FILES.ligand_mdcrd = None
+FILES.ligand_prmtop = 'L.prmtop'
+FILES.make_mdins = False
+FILES.mdcrd = ['BL_3.nc']
+FILES.mutant_complex_prmtop = None
+FILES.mutant_ligand_prmtop = None
+FILES.mutant_receptor_prmtop = None
+FILES.prefix = '_MMPBSA_'
+FILES.receptor_mdcrd = None
+FILES.receptor_prmtop = 'B.prmtop'
+FILES.solvated_ligand_prmtop = None
+FILES.solvated_prmtop = 'BL.prmtop'
+FILES.solvated_receptor_prmtop = None
+FILES.temp_directory = 'tmp/'
+FILES.use_mdins = False
+FILES.xvvfile = '/home/luisvollmers/anaconda3/envs/mmpbsa/dat/mmpbsa/spc.xvv'
+size = 1
+numframes = 94
+numframes_nmode = 0
+mut_str = 'None'
+using_chamber = False
+|Input file:
+|--------------------------------------------------------------
+|&general
+|use_sander=1,
+|startframe=1,
+|interval=1,
+|
+|# Keep all (temporary files)
+|keep_files=2,
+|
+|#Print all errors and tracebacks
+|debug_printlevel=2
+|
+|strip_mask= ":K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL"
+|/
+|&gb
+|igb=5, saltcon=0.1,
+|/
+|&decomp
+|idecomp=1,
+|/
+|
+|--------------------------------------------------------------
