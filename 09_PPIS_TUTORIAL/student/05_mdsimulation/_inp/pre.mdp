@@ -1,0 +1,63 @@
+title	= Production Run Solvated Protein 
+
+; RUN CONTROL
+integrator	= md
+dt		= 0.002
+nsteps		= 25000
+
+; OUTPUT CONTROL
+nstxout			= 0
+nstxout-compressed	= 5000 
+nstvout			= 5000
+nstenergy		= 5000
+nstlog			= 5000
+
+; NEIGHBOR SEARCHING
+cutoff-scheme	= Verlet
+nstlist		= 20 
+ns_type		= grid 
+rlist		= 1.4
+
+; ELECTROSTATICS
+coulombtype	= PME
+rcoulomb	= 1.4
+
+; VAN DER WAALS
+rvdw		= 1.4
+DispCorr	= EnerPres
+
+; EWALD
+fourierspacing	= 0.12
+fourier_nx	= 0
+fourier_ny	= 0
+fourier_nz	= 0
+pme_order	= 4
+optimize_fft	= yes
+ewald_rtol	= 1e-5
+
+; TEMPERATURE COUPLING
+Tcoupl	= Nose-Hoover
+tc_grps	= Protein   Non-Protein 
+tau_t	= 1.0       1.0
+ref_t	= 310       310
+
+; PRESSURE COUPLING 
+pcoupl			= Parrinello-Rahman
+pcoupltype		= isotropic
+tau-p			= 2
+ref-p			= 1.0
+compressibility		= 4.5e-5
+refcoord_scaling	= com
+
+; VELOCITY GENERATION
+gen_vel	= no
+
+; PERIODIC BOUNDARY
+pbc	= xyz
+
+; BONDS
+constraints		= h-bonds
+constraint_algorithm	= lincs
+continuation		= no
+lincs_order		= 4
+lincs_iter		= 1

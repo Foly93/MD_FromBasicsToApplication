@@ -1,0 +1,20 @@
+&general
+use_sander=1,
+startframe=1,
+interval=1,
+
+# Keep all (temporary files)
+keep_files=2,
+
+#Print all errors and tracebacks
+debug_printlevel=2
+
+strip_mask= ":K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL"
+/
+&gb
+igb=5, saltcon=0.1,
+/
+&decomp
+idecomp=1,
+/
+

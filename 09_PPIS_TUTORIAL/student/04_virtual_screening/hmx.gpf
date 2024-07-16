@@ -1,0 +1,23 @@
+npts (YOUR BOX SIZE, needs to be integer) # num.grid points in xyz
+gridfld hmx_B99990001.maps.fld # grid_data_file
+spacing 0.375 # spacing(A)
+receptor_types A C N NA OA SA # receptor atom types
+ligand_types A C F I NA Cl OA N P S Br HD # ligand atom types
+receptor hmx_B99990001.pdbqt # macromolecule
+gridcenter (YOUR BOX COM) # xyz-coordinates or auto
+smooth 0.5 # store minimum energy w/in rad(A)
+map hmx_B99990001.A.map # atom-specific affinity map
+map hmx_B99990001.C.map # atom-specific affinity map
+map hmx_B99990001.F.map # atom-specific affinity map
+map hmx_B99990001.I.map # atom-specific affinity map
+map hmx_B99990001.NA.map # atom-specific affinity map
+map hmx_B99990001.Cl.map # atom-specific affinity map
+map hmx_B99990001.OA.map # atom-specific affinity map
+map hmx_B99990001.N.map # atom-specific affinity map
+map hmx_B99990001.P.map # atom-specific affinity map
+map hmx_B99990001.S.map # atom-specific affinity map
+map hmx_B99990001.Br.map # atom-specific affinity map
+map hmx_B99990001.HD.map # atom-specific affinity map
+elecmap hmx_B99990001.e.map # electrostatic potential map
+dsolvmap hmx_B99990001.d.map # desolvation potential map
+dielectric -0.1465 # <0, AD4 distance-dep.diel;>0, cons
